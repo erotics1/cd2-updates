@@ -1,0 +1,25 @@
+name: Mirror signed CD2 update artifacts
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['scripts/mirror.py', '.github/workflows/mirror.yml', 'publish-request.json']
+permissions:
+  contents: write
+concurrency:
+  group: cd2-public-update-mirror
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.repository == 'erotics1/cd2-updates'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Check out publisher
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - name: Validate publisher
+        run: python3 scripts/test_mirror.py
+      - name: Download, verify and publish public artifacts
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/mirror.py
