@@ -88,6 +88,11 @@
       "tag": "mirror-cd20-bt-base-20261026-r52c-aa5449ecfef5-launcher-0.4.5"
     },
     {
+      "sha256": "736843b3a182f89dd470017f87595972b30c1c399ef732544508b9d44c673e0b",
+      "size": 8940544,
+      "tag": "mirror-cd20-bt-base-20261026-r52c-aa5449ecfef5-launcher-0.4.7"
+    },
+    {
       "sha256": "74769974767cde36640e4903f1eb1547c3bfdddb1afcc59a8a35fa6ef5af0c2d",
       "size": 118912197,
       "tag": "mirror-cd20-bt-base-20261026-r52b-369a02136fb6-launcher-0.4.5"
