@@ -6,6 +6,7 @@ import json
 import os
 import re
 import tempfile
+import time
 import urllib.error
 import urllib.request
 from pathlib import Path
@@ -60,7 +61,26 @@ def public_json(url):
         if len(data) > 2*1024*1024: raise ValueError('Metadata too large')
         return json.loads(data)
 
-def download(sha, size, path):
+RETRY_STATUS = {429, 502, 503, 504}
+RETRY_SECONDS = 1800
+
+def download(sha, size, path, sleep=time.sleep, clock=time.monotonic):
+    # The origin serves at most a few downloads at once and answers 429 when busy (players updating): wait and retry, never give up early.
+    deadline = clock() + RETRY_SECONDS
+    while True:
+        try:
+            return download_once(sha, size, path)
+        except urllib.error.HTTPError as error:
+            if error.code not in RETRY_STATUS or clock() >= deadline: raise
+            wait = error.headers.get('Retry-After', '') if error.headers else ''
+            wait = min(int(wait), 60) if wait.isdigit() else 10
+        except (urllib.error.URLError, TimeoutError, ConnectionError, http.client.HTTPException):
+            if clock() >= deadline: raise
+            wait = 15
+        print('Origin busy or unreachable for', sha, '- retrying in', wait, 's', flush=True)
+        sleep(max(wait, 2))
+
+def download_once(sha, size, path):
     digest = hashlib.sha256()
     count = 0
     req = urllib.request.Request(ORIGIN+'/launcher/update/files/'+sha,

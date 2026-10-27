@@ -23,4 +23,35 @@ class MirrorTests(unittest.TestCase):
         for key, val in [('sha256','../x'),('size',-1),('tag','https://attacker.test/x'),('tag','../main')]:
             with self.subTest(key=key): self.assertFalse(mirror.valid_entry(dict(row, **{key:val})))
 
+    def test_download_waits_while_origin_is_busy(self):
+        import io, urllib.error
+        calls, sleeps = [], []
+        def fake_once(sha, size, path):
+            calls.append(sha)
+            if len(calls) < 3:
+                raise urllib.error.HTTPError('u', 429, 'busy', {'Retry-After': '2'}, io.BytesIO())
+            return 'ok'
+        original = mirror.download_once
+        mirror.download_once = fake_once
+        try:
+            self.assertEqual(mirror.download('a'*64, 1, None, sleep=sleeps.append, clock=lambda: 0), 'ok')
+        finally:
+            mirror.download_once = original
+        self.assertEqual((len(calls), sleeps), (3, [2, 2]))
+
+    def test_download_gives_up_on_other_errors_and_after_the_deadline(self):
+        import io, urllib.error
+        def not_found(sha, size, path):
+            raise urllib.error.HTTPError('u', 404, 'missing', {}, io.BytesIO())
+        def busy(sha, size, path):
+            raise urllib.error.HTTPError('u', 429, 'busy', {}, io.BytesIO())
+        original = mirror.download_once
+        try:
+            for fake, clock in [(not_found, lambda: 0), (busy, iter([0, mirror.RETRY_SECONDS + 1]).__next__)]:
+                mirror.download_once = fake
+                with self.assertRaises(urllib.error.HTTPError):
+                    mirror.download('a'*64, 1, None, sleep=lambda s: None, clock=clock)
+        finally:
+            mirror.download_once = original
+
 if __name__ == '__main__': unittest.main()

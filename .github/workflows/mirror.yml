@@ -13,7 +13,7 @@ jobs:
   publish:
     if: github.repository == 'erotics1/cd2-updates'
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 150
     steps:
       - name: Check out publisher
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
