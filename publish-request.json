@@ -1,4 +1,4 @@
 {
-  "buildId": "cd20-bt-base-20261027-r62",
-  "reason": "Mirror the R62 channel release (R52 baseline, 23 changed files; 34 MB from R61: the China-shop pack shows only the reward window) after its publication on 2026-10-27"
+  "buildId": "cd20-bt-base-20261027-r63",
+  "reason": "Mirror the R63 channel release (R52 baseline; 34 MB from R62: the slide can no longer close the client) after its publication on 2026-10-27"
 }
