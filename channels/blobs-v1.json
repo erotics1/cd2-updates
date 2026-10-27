@@ -78,6 +78,11 @@
       "tag": "mirror-cd20-bt-base-20261027-r58-0d3f9cd208f3-launcher-0.4.7"
     },
     {
+      "sha256": "29ac1e453c10be17da3193772e896c4e48e64d68281fff64f29deeb3c7986d6a",
+      "size": 873834726,
+      "tag": "mirror-cd20-bt-base-20261027-r60-e229ad7f3305-launcher-0.4.9"
+    },
+    {
       "sha256": "2c7d7d3fac63de94e2731b61a293abe4e2f40af6e872781bc5d9e842960c1412",
       "size": 531918016,
       "tag": "mirror-cd20-bt-base-20261026-r52b-369a02136fb6-launcher-0.4.5"
@@ -258,6 +263,11 @@
       "tag": "mirror-cd20-bt-base-20261026-r52b-369a02136fb6-launcher-0.4.5"
     },
     {
+      "sha256": "e0a94876fb7bb0c69f6219e915f3aee030ee8d4ada74a53a6c3b1b75aa74a457",
+      "size": 4947,
+      "tag": "mirror-cd20-bt-base-20261027-r60-e229ad7f3305-launcher-0.4.9"
+    },
+    {
       "sha256": "e33ef188471e5972a9a76546a1e684b845020e85369a9a0a56ce7c05aa296518",
       "size": 8031744,
       "tag": "mirror-cd20-bt-base-20261026-r52b-369a02136fb6-launcher-0.4.5"
@@ -298,5 +308,5 @@
       "tag": "mirror-cd20-bt-base-20261026-r52b-369a02136fb6-launcher-0.4.5"
     }
   ],
-  "sourceBuildId": "cd20-bt-base-20261027-r58"
+  "sourceBuildId": "cd20-bt-base-20261027-r60"
 }
