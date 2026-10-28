@@ -1,4 +1,4 @@
 {
-  "buildId": "cd20-bt-base-20261028-r69",
-  "reason": "Mirror the R69 channel release (R52 baseline; 37 MB from R68: sprint bar, slide jump, lobby controls and two small lobby floor packages in Documents/res) after its publication on 2026-10-28"
+  "buildId": "cd20-bt-base-20261028-r70",
+  "reason": "Mirror the R70 channel release (R52 baseline; 36 MB from R69: fixes the black screen at start caused by the lobby floor package) after its publication on 2026-10-28"
 }
