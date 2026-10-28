@@ -1,4 +1,4 @@
 {
-  "buildId": "cd20-bt-base-20261028-r67",
-  "reason": "Mirror launcher 0.4.12 (renews the game caches on every start) after its channel publication on 2026-10-28; channel release stays R67"
+  "buildId": "cd20-bt-base-20261028-r68",
+  "reason": "Mirror the R68 channel release (R52 baseline; 35 MB from R67: longer sprint, CD2.0 logo, lobby day/night switch) after its publication on 2026-10-28"
 }
