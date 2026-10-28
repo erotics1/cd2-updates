@@ -13,6 +13,11 @@
       "tag": "mirror-cd20-bt-base-20261026-r52c-aa5449ecfef5-launcher-0.4.5"
     },
     {
+      "sha256": "01df2155744aa6b1922183edf30117a35dbeca44021a9298828d7fefa6fbc8ec",
+      "size": 8991232,
+      "tag": "mirror-cd20-bt-base-20261028-r68-6492a94350b2-launcher-0.4.13"
+    },
+    {
       "sha256": "05ddbfb735b4494eeecf65d15fae88b0955938b86496dd6b3050087b42559b7c",
       "size": 123175666,
       "tag": "mirror-cd20-bt-base-20261026-r52b-369a02136fb6-launcher-0.4.5"
