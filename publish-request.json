@@ -1,4 +1,4 @@
 {
-  "buildId": "cd20-bt-base-20261028-r71",
-  "reason": "Mirror the R71 channel release (R52 baseline; 36 MB from R70: Invite to team bar at the screen edge) after its publication on 2026-10-28"
+  "buildId": "cd20-bt-base-20261028-r72",
+  "reason": "Mirror the R72 channel release (R52 baseline; 36 MB from R71: our own voice chat) and launcher 0.4.14 (voice chat CDV1) after their publication on 2026-10-28"
 }
