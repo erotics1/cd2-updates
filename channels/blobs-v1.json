@@ -108,6 +108,11 @@
       "tag": "mirror-cd20-bt-base-20261027-r58-0d3f9cd208f3-launcher-0.4.7"
     },
     {
+      "sha256": "282cd0c23ac69a2297ca3f3c8bf36feb4536b6083bb4560792ea9b6dd447efa0",
+      "size": 42427,
+      "tag": "mirror-cd20-bt-base-20261028-r69-e603fd000152-launcher-0.4.13"
+    },
+    {
       "sha256": "2933b420b0c8a6172df3cf956bb7d0316e941c48b35684d7bf61e337db491f4c",
       "size": 42427,
       "tag": "mirror-cd20-bt-base-20261028-r67-f9112436ff90-launcher-0.4.9"
@@ -188,6 +193,11 @@
       "tag": "mirror-cd20-bt-base-20261027-r63-5e135f4239d3-launcher-0.4.9"
     },
     {
+      "sha256": "69c94a480ca5f691de98e32bea6919d72449c5ae83ec45d3175b336b7fe219eb",
+      "size": 701,
+      "tag": "mirror-cd20-bt-base-20261028-r69-e603fd000152-launcher-0.4.13"
+    },
+    {
       "sha256": "6cad6200e9e38a4d6dde2bdcc181d42a5f2737b4589b58a04b60cf0ff8f48676",
       "size": 42498,
       "tag": "mirror-cd20-bt-base-20261026-r52b-369a02136fb6-launcher-0.4.5"
@@ -196,6 +206,11 @@
       "sha256": "6d66cc8972e3cdf83f59013191f7e3f57192583f7993dacead7e2d41049d5d44",
       "size": 432622,
       "tag": "mirror-cd20-bt-base-20261027-r58-0d3f9cd208f3-launcher-0.4.7"
+    },
+    {
+      "sha256": "6df188c7de576e4851632a5c31243c3a83f9d36faa759f354e27e56dc359919f",
+      "size": 35620779,
+      "tag": "mirror-cd20-bt-base-20261028-r69-e603fd000152-launcher-0.4.13"
     },
     {
       "sha256": "704cb2dc1b632a92d64b8c09ad7d2548d6c639d0ce70e2c099438d5990f5299e",
@@ -236,6 +251,11 @@
       "sha256": "83ad7977373d92b4fdcf4ed537923df5730942121f661e9e347cbf72f66180ba",
       "size": 42427,
       "tag": "mirror-cd20-bt-base-20261027-r64-425f7f1181fb-launcher-0.4.9"
+    },
+    {
+      "sha256": "8daf3892abe97f3144306115ce14af90302b36d5511f667febc8d55bc622c731",
+      "size": 42198,
+      "tag": "mirror-cd20-bt-base-20261028-r69-e603fd000152-launcher-0.4.13"
     },
     {
       "sha256": "9112cf45279d7b650a0e86c0046e3d450eff5d7b697adc7d86146afdee4e0eaa",
@@ -363,6 +383,11 @@
       "tag": "mirror-cd20-bt-base-20261027-r64-425f7f1181fb-launcher-0.4.9"
     },
     {
+      "sha256": "d0859814bb7a9538aaffc4787e8759d1e2142f1b093f06739ebacf70857816f1",
+      "size": 5338,
+      "tag": "mirror-cd20-bt-base-20261028-r69-e603fd000152-launcher-0.4.13"
+    },
+    {
       "sha256": "d0c88cf13c31960401951c095a686bdb2b3eb9e7ef92779e58bfc1d6883ef63b",
       "size": 8990720,
       "tag": "mirror-cd20-bt-base-20261028-r67-f9112436ff90-launcher-0.4.12"
@@ -473,10 +498,15 @@
       "tag": "mirror-cd20-bt-base-20261026-r52b-369a02136fb6-launcher-0.4.5"
     },
     {
+      "sha256": "fe5dea1638d4028a5f9b089f0367b9a0d894bb339d62512510e1fb5c3aa819a6",
+      "size": 1138997,
+      "tag": "mirror-cd20-bt-base-20261028-r69-e603fd000152-launcher-0.4.13"
+    },
+    {
       "sha256": "fecda424e1a7b7802d3800cdd026398e3d8677c097cd30aa592f7ac92acd9c72",
       "size": 35134619,
       "tag": "mirror-cd20-bt-base-20261028-r67-f9112436ff90-launcher-0.4.9"
     }
   ],
-  "sourceBuildId": "cd20-bt-base-20261028-r68"
+  "sourceBuildId": "cd20-bt-base-20261028-r69"
 }
