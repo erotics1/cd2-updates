@@ -1,4 +1,4 @@
 {
   "buildId": "cd20-bt-base-20261029-r79",
-  "reason": "Mirror check after launcher 0.4.18 (news fit their cards) on 2026-10-29: the 0.4.18 exe was uploaded to GitHub before publication and R79 is unchanged, so nothing should be missing"
+  "reason": "Mirror check after launcher 0.4.19 (news as a list, offline auto-reconnect) on 2026-10-29: the 0.4.19 exe was uploaded to GitHub before publication and R79 is unchanged, so nothing should be missing"
 }
