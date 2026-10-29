@@ -1,4 +1,4 @@
 {
-  "buildId": "cd20-bt-base-20261029-r81",
-  "reason": "Mirror check after R81 (steady Vulkan renderer: router v4) on 2026-10-29: the two changed R81 files were uploaded to GitHub before publication (premirror TODO EN GITHUB), so nothing should be missing"
+  "buildId": "cd20-bt-base-20261029-r82",
+  "reason": "Mirror check after R82 (gadget slot on Y, workshop material from kills and chests) on 2026-10-29: the four changed R82 files were uploaded to GitHub before publication (premirror TODO EN GITHUB), so nothing should be missing"
 }
