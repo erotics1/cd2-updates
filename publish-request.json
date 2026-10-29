@@ -1,4 +1,4 @@
 {
-  "buildId": "cd20-bt-base-20261029-r78",
-  "reason": "Mirror check after R78 (S1 items show their models) on 2026-10-29: R78 was uploaded to GitHub before publication and the VPS holds no game file, so nothing should be missing"
+  "buildId": "cd20-bt-base-20261029-r79",
+  "reason": "Mirror check after R79 (Chaos Herald set stands still) on 2026-10-29: R79 was uploaded to GitHub before publication and the VPS holds no game file, so nothing should be missing"
 }
