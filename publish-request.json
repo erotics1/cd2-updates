@@ -1,4 +1,4 @@
 {
-  "buildId": "cd20-bt-base-20261029-r84",
-  "reason": "Mirror check after R84 (opening parade diagnostic, no gameplay change) on 2026-10-29: the four changed R84 files were uploaded to GitHub before publication (premirror TODO EN GITHUB), so nothing should be missing"
+  "buildId": "cd20-bt-base-20261029-r85",
+  "reason": "Mirror check after R85 (opening parade close fixed) on 2026-10-29: the four changed R85 files were uploaded to GitHub before publication (premirror TODO EN GITHUB), so nothing should be missing"
 }
