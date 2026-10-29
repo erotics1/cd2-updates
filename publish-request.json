@@ -1,4 +1,4 @@
 {
-  "buildId": "cd20-bt-base-20261029-r83",
-  "reason": "Mirror check after R83 (voice mic on I in modes 1 and 2, two-minute waiting room) on 2026-10-29: the four changed R83 files were uploaded to GitHub before publication (premirror TODO EN GITHUB), so nothing should be missing"
+  "buildId": "cd20-bt-base-20261029-r84",
+  "reason": "Mirror check after R84 (opening parade diagnostic, no gameplay change) on 2026-10-29: the four changed R84 files were uploaded to GitHub before publication (premirror TODO EN GITHUB), so nothing should be missing"
 }
