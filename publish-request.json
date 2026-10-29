@@ -1,4 +1,4 @@
 {
   "buildId": "cd20-bt-base-20261028-r74",
-  "reason": "Mirror the R74 channel release (R52 baseline; about 3.0 GB from R73: S1 items, gift packs and campaign prices in the shop, voice buttons fix) after its publication on 2026-10-29"
+  "reason": "Mirror check after launcher 0.4.15 (downloads from GitHub only) on 2026-10-29: R74 and the 0.4.15 launcher were uploaded before publication, so nothing should be missing"
 }
