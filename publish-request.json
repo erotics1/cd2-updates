@@ -1,4 +1,4 @@
 {
-  "buildId": "cd20-bt-base-20261029-r75",
-  "reason": "Mirror check after R75 (S1 item fixes) on 2026-10-29: R75 was uploaded to GitHub before publication and the VPS holds no game file, so nothing should be missing"
+  "buildId": "cd20-bt-base-20261029-r76",
+  "reason": "Mirror check after R76 (S1 models fixed) on 2026-10-29: R76 was uploaded to GitHub before publication and the VPS holds no game file, so nothing should be missing"
 }
