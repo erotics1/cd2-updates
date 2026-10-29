@@ -1,4 +1,4 @@
 {
-  "buildId": "cd20-bt-base-20261028-r74",
-  "reason": "Mirror check after launcher 0.4.15 (downloads from GitHub only) on 2026-10-29: R74 and the 0.4.15 launcher were uploaded before publication, so nothing should be missing"
+  "buildId": "cd20-bt-base-20261029-r75",
+  "reason": "Mirror check after R75 (S1 item fixes) on 2026-10-29: R75 was uploaded to GitHub before publication and the VPS holds no game file, so nothing should be missing"
 }
