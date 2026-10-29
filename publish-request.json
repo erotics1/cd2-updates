@@ -1,4 +1,4 @@
 {
-  "buildId": "cd20-bt-base-20261029-r76",
-  "reason": "Mirror check after R76 (S1 models fixed) on 2026-10-29: R76 was uploaded to GitHub before publication and the VPS holds no game file, so nothing should be missing"
+  "buildId": "cd20-bt-base-20261029-r77",
+  "reason": "Mirror check after R77 (S1 effects, icons and mounts fixed) on 2026-10-29: R77 and launcher 0.4.16 were uploaded to GitHub before publication and the VPS holds no game file, so nothing should be missing"
 }
