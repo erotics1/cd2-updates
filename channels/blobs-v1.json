@@ -523,6 +523,11 @@
       "tag": "mirror-launcher-0.4.19-8f6140ec1c59-premirror"
     },
     {
+      "sha256": "8f7703fd7d5bfccffea519bcadcd6fdbc8b4d13326381c695c7c2c07a946ecef",
+      "size": 43154926,
+      "tag": "mirror-cd20-bt-base-20261029-r86-585dfad37bf8-premirror"
+    },
+    {
       "sha256": "9112cf45279d7b650a0e86c0046e3d450eff5d7b697adc7d86146afdee4e0eaa",
       "size": 34007767,
       "tag": "mirror-cd20-bt-base-20261027-r62-68cf8a93cdd2-launcher-0.4.9"
@@ -636,6 +641,11 @@
       "sha256": "a5eac6d3cf981d12a6af840faf9054b3c23df11f67562a923990227b3489d6e3",
       "size": 701,
       "tag": "mirror-cd20-bt-base-20261027-r63-5e135f4239d3-launcher-0.4.9"
+    },
+    {
+      "sha256": "a61f606a38bbbd216c7a17853c393731162c4e131887621501071db4e80794a4",
+      "size": 5338,
+      "tag": "mirror-cd20-bt-base-20261029-r86-585dfad37bf8-premirror"
     },
     {
       "sha256": "a6a7aa24101abccf840beb546da70badae39fa8a86bce52e808afffd3c9f5990",
@@ -771,6 +781,11 @@
       "sha256": "ca36746acc66a06b2dd497d388c9834c5d103bdae3251c6a59d676bb6abbe502",
       "size": 244953984,
       "tag": "mirror-cd20-bt-base-20261027-r64-425f7f1181fb-launcher-0.4.9"
+    },
+    {
+      "sha256": "cd2b0e02fbcf386b75c5b0c98a7353e2bfe0edd28b1ff4913f34a9f66b097dcb",
+      "size": 701,
+      "tag": "mirror-cd20-bt-base-20261029-r86-585dfad37bf8-premirror"
     },
     {
       "sha256": "ce870df180e4483759e57fb36f99817fd9d2044ce0f5cc91e1efbc7df50b05ed",
@@ -918,6 +933,11 @@
       "tag": "mirror-cd20-bt-base-20261029-r76-b83c435f0871-premirror"
     },
     {
+      "sha256": "ef61280bc10fdb7ad326f06736f49382a46d74b63837a223fbc96bd5d0d5cfd4",
+      "size": 42448,
+      "tag": "mirror-cd20-bt-base-20261029-r86-585dfad37bf8-premirror"
+    },
+    {
       "sha256": "f15159a0eb6fcac19c9c3fbe4dd9600d0349de723a86cc39039f251252c87e48",
       "size": 261681360,
       "tag": "mirror-cd20-bt-base-20261029-r75-c95ca6b95907-premirror"
@@ -983,5 +1003,5 @@
       "tag": "mirror-cd20-bt-base-20261028-r67-f9112436ff90-launcher-0.4.9"
     }
   ],
-  "sourceBuildId": "cd20-bt-base-20261029-r85"
+  "sourceBuildId": "cd20-bt-base-20261029-r86"
 }
