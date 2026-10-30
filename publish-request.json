@@ -1,4 +1,4 @@
 {
-  "buildId": "cd20-bt-base-20261029-r94",
-  "reason": "Mirror check after R94 (Fluorescent Pegasus flight animations: mount tree clips the model lacks use its own) on 2026-10-30: every R94 file was uploaded to GitHub before publication (premirror TODO EN GITHUB), so nothing should be missing"
+  "buildId": "cd20-bt-base-20261029-r95",
+  "reason": "Mirror check after R95 (crafting workshop never stays blocked; unsupported recipes Coming soon) on 2026-10-30: every R95 file was uploaded to GitHub before publication (premirror TODO EN GITHUB), so nothing should be missing"
 }
