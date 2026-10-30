@@ -1,4 +1,4 @@
 {
-  "buildId": "cd20-bt-base-20261029-r88",
-  "reason": "Mirror check after R88 (frost dragon rider seat retuned, local mount tuning file) on 2026-10-30: the changed R88 files were uploaded to GitHub before publication (premirror TODO EN GITHUB), so nothing should be missing"
+  "buildId": "cd20-bt-base-20261029-r89",
+  "reason": "Mirror check after R89 (inventory previews of 20 flight trails; the BT trails 20001 and 20002 leave the shop) on 2026-10-30: the changed R89 files were uploaded to GitHub before publication (premirror TODO EN GITHUB), so nothing should be missing"
 }
