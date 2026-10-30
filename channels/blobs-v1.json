@@ -48,6 +48,11 @@
       "tag": "mirror-cd20-bt-base-20261026-r52b-369a02136fb6-launcher-0.4.5"
     },
     {
+      "sha256": "08ed051a8262695076159c07f7c129d666ad7b8bd92c5e95732e96cc4fd67127",
+      "size": 46885587,
+      "tag": "mirror-cd20-bt-base-20261029-r100-6b210acd1222-premirror"
+    },
+    {
       "sha256": "0a085d05fcd3b387a555102f0f5c7d5f41e5170446f245db7ab1506ae13cdbb7",
       "size": 42449,
       "tag": "mirror-cd20-bt-base-20261029-r93-6acf084d0ee3-premirror"
@@ -458,6 +463,11 @@
       "tag": "mirror-cd20-bt-base-20261029-r90-a1d46d49f9a1-premirror"
     },
     {
+      "sha256": "5e2de49f58f1b87470f548cf94a355e5f644f4ee35cf29dabb1f2a094790f2f8",
+      "size": 42449,
+      "tag": "mirror-cd20-bt-base-20261029-r100-6b210acd1222-premirror"
+    },
+    {
       "sha256": "5eea65cf843ba6b9246c173409e87414069861da1a7deebecb3305302b9f62ae",
       "size": 208221415,
       "tag": "mirror-cd20-bt-base-20261027-r58-0d3f9cd208f3-launcher-0.4.7"
@@ -621,6 +631,11 @@
       "sha256": "847b6ae6fd9c347820eed26f0a9b3bdf460d2b7056e0d901e77018d0f9628357",
       "size": 1433673566,
       "tag": "mirror-cd20-bt-base-20261029-r77-15bcc5ff01b1-premirror"
+    },
+    {
+      "sha256": "8842e6a4eb2a392de41a74008eb61c51510d7b8b327d6a5897be48761a48f669",
+      "size": 5338,
+      "tag": "mirror-cd20-bt-base-20261029-r100-6b210acd1222-premirror"
     },
     {
       "sha256": "8ae013032735d0b8293ede23ca36d959a482e56ad47c541f31f53af41919fbc5",
@@ -1168,6 +1183,11 @@
       "tag": "mirror-cd20-bt-base-20261029-r94-20563ed3d51e-premirror"
     },
     {
+      "sha256": "ed5737f18edd8968d44beac79dbb05c004c6d26f7c23802a39c42fa13372c306",
+      "size": 701,
+      "tag": "mirror-cd20-bt-base-20261029-r100-6b210acd1222-premirror"
+    },
+    {
       "sha256": "ed7b4ac29277ab2d1fa5bc0c2cb0bba127133a2df02678fe1b5406106e1f95f2",
       "size": 42449,
       "tag": "mirror-cd20-bt-base-20261029-r99-3bb65ba468eb-premirror"
@@ -1268,5 +1288,5 @@
       "tag": "mirror-cd20-bt-base-20261028-r67-f9112436ff90-launcher-0.4.9"
     }
   ],
-  "sourceBuildId": "cd20-bt-base-20261029-r99"
+  "sourceBuildId": "cd20-bt-base-20261029-r100"
 }
