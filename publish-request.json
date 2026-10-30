@@ -1,4 +1,4 @@
 {
-  "buildId": "cd20-bt-base-20261029-r86",
-  "reason": "Mirror check after R86 (S1 flying mounts on BT controls) on 2026-10-30: the changed R86 files were uploaded to GitHub before publication (premirror TODO EN GITHUB), so nothing should be missing"
+  "buildId": "cd20-bt-base-20261029-r87",
+  "reason": "Mirror check after R87 (S1 flying mounts seated, arm IK watchdog, arm and outfit probes) on 2026-10-30: the changed R87 files were uploaded to GitHub before publication (premirror TODO EN GITHUB), so nothing should be missing"
 }
