@@ -1,4 +1,4 @@
 {
-  "buildId": "cd20-bt-base-20261029-r91",
-  "reason": "Mirror check after R91 (skins without an idle animation stand still, lobby camera back after the chat) on 2026-10-30: every R91 file was uploaded to GitHub before publication (premirror TODO EN GITHUB), so nothing should be missing"
+  "buildId": "cd20-bt-base-20261029-r92",
+  "reason": "Mirror check after R92 (Fluorescent Pegasus rider sits on the horse) on 2026-10-30: every R92 file was uploaded to GitHub before publication (premirror TODO EN GITHUB), so nothing should be missing"
 }
