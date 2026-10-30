@@ -1,4 +1,4 @@
 {
-  "buildId": "cd20-bt-base-20261029-r90",
-  "reason": "Mirror check after launcher 0.4.20 (a crash on Vulkan switches the next start to Direct3D 9) on 2026-10-30: the signed launcher exe was uploaded to GitHub before publication (premirror_launcher TODO EN GITHUB), so nothing should be missing"
+  "buildId": "cd20-bt-base-20261029-r91",
+  "reason": "Mirror check after R91 (skins without an idle animation stand still, lobby camera back after the chat) on 2026-10-30: every R91 file was uploaded to GitHub before publication (premirror TODO EN GITHUB), so nothing should be missing"
 }
