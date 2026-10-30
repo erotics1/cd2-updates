@@ -1,4 +1,4 @@
 {
   "buildId": "cd20-bt-base-20261029-r90",
-  "reason": "Mirror check after R90 (the plane no longer overshoots after a frame hitch, so a flying-mount rider beside it stops jumping) on 2026-10-30: the changed R90 files were uploaded to GitHub before publication (premirror TODO EN GITHUB), so nothing should be missing"
+  "reason": "Mirror check after launcher 0.4.20 (a crash on Vulkan switches the next start to Direct3D 9) on 2026-10-30: the signed launcher exe was uploaded to GitHub before publication (premirror_launcher TODO EN GITHUB), so nothing should be missing"
 }
