@@ -83,6 +83,11 @@
       "tag": "mirror-cd20-bt-base-20261026-r52b-369a02136fb6-launcher-0.4.5"
     },
     {
+      "sha256": "12aa238c96720a2d82d1fbca040821a74f129153ac328557da44faa26794e852",
+      "size": 44449073,
+      "tag": "mirror-cd20-bt-base-20261029-r91-0b8b07d28ef1-premirror"
+    },
+    {
       "sha256": "12faff6ea50834d4e1766d66c180f55224b3b2daef334db2440bdeb3cc9e1281",
       "size": 4943,
       "tag": "mirror-cd20-bt-base-20261026-r52b-369a02136fb6-launcher-0.4.5"
@@ -126,6 +131,11 @@
       "sha256": "18123ed428be5b31eb2cf4c429056815bdb4f565226c4fec80a188a558f8c2d0",
       "size": 253039699,
       "tag": "mirror-cd20-bt-base-20261028-r74-d1d8637c44d5-launcher-0.4.14"
+    },
+    {
+      "sha256": "18331a5fe466840c45ebe1e80df6e13d60eac950e915258df997190601314a5b",
+      "size": 701,
+      "tag": "mirror-cd20-bt-base-20261029-r91-0b8b07d28ef1-premirror"
     },
     {
       "sha256": "185dcf93740bcf3fcbd145e6f42eefe1b827a08b3de1be29922e48f45e81c8c9",
@@ -593,6 +603,11 @@
       "tag": "mirror-cd20-bt-base-20261029-r75-c95ca6b95907-premirror"
     },
     {
+      "sha256": "928769d55aa06dc17d54fc440a64adc066037baa3d79ccc746cbdfe158924a99",
+      "size": 42450,
+      "tag": "mirror-cd20-bt-base-20261029-r91-0b8b07d28ef1-premirror"
+    },
+    {
       "sha256": "93758551d69d4df077cb4fc21c8272fc33706680e10c12701a1ab754e0c15a9f",
       "size": 42181546,
       "tag": "mirror-cd20-bt-base-20261029-r82-5187501200cf-premirror"
@@ -1053,6 +1068,11 @@
       "tag": "mirror-cd20-bt-base-20261028-r74-d1d8637c44d5-launcher-0.4.14"
     },
     {
+      "sha256": "f9d75bffc70a8f1150ab15f90ff2ecf3b5de315ca8e6162cc7230f42e93763af",
+      "size": 5338,
+      "tag": "mirror-cd20-bt-base-20261029-r91-0b8b07d28ef1-premirror"
+    },
+    {
       "sha256": "fa531dd408ce058a77792379c368c303c2db7444b225e283e0027bffe241b0a6",
       "size": 5338,
       "tag": "mirror-cd20-bt-base-20261029-r79-4c5732596c01-premirror"
@@ -1088,5 +1108,5 @@
       "tag": "mirror-cd20-bt-base-20261028-r67-f9112436ff90-launcher-0.4.9"
     }
   ],
-  "sourceBuildId": "cd20-bt-base-20261029-r90"
+  "sourceBuildId": "cd20-bt-base-20261029-r91"
 }
