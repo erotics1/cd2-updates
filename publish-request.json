@@ -1,4 +1,4 @@
 {
-  "buildId": "cd20-bt-base-20261029-r97",
-  "reason": "Mirror check after R97 (workshop traps: Beehive and Timed Bomb) on 2026-10-30: every R97 file was uploaded to GitHub before publication (premirror TODO EN GITHUB), so nothing should be missing"
+  "buildId": "cd20-bt-base-20261029-r98",
+  "reason": "Mirror check after R98 (the rest of the workshop gadgets: Jump Pad, Decoy, Inflation Pump, Magnetic Shield and Ejector Seat) on 2026-10-30: every R98 file was uploaded to GitHub before publication (premirror TODO EN GITHUB), so nothing should be missing"
 }
