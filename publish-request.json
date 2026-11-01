@@ -1,4 +1,4 @@
 {
-  "buildId": "cd20-bt-base-20261029-r109",
-  "reason": "Verify R109 team voice, party status, battle-pass feedback and news after publication on 2026-11-01. All final signed target artifacts (payload fb60bb947b4e853b8c0d18c161f8d754dc609ea58eacc90fb45348915371297b) were verified in public GitHub before opening the channel; the safety workflow should find every current artifact already mirrored."
+  "buildId": "cd20-bt-base-20261029-r110",
+  "reason": "Verify the R110 solo-voice/rank-clone and carousel native-backplate hotfix after publication on 2026-11-01. Final signed payload 298c6548324fce8731834e6d5653a1ebec4f4c8a2e513daa40a4bfed67f47cad was fully verified in public GitHub before opening the channel. No game blobs are served by the VPS."
 }
