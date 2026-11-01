@@ -1,4 +1,4 @@
 {
-  "buildId": "cd20-bt-base-20261029-r114",
-  "reason": "Verify published R114 and Launcher 0.4.21: separate Ranked queue, TDM and Capture the Flag, voice pacing and proximity, combat fixes and ten-draw reward presentation. Signed payload 62f56ac515664a3259e761a6584df5340dc0f4ff3c560e6f5d4cc4f25172108f and the signed launcher were verified in public GitHub before channel activation. All three v224 roles passed BOOT, ports, voice and database-DLL checks. The VPS serves no game blobs."
+  "buildId": "cd20-bt-base-20261029-r115",
+  "reason": "Publish R115 startup diagnostics on v225. This diagnostic update records bounded native lobby initialization boundaries; it does not claim to fix the startup crash. Signed payload c3296f73846573b734b8c931dcb55717045dd65cc8ae1f4ffeff1c91d478cd99 was verified in public GitHub before channel activation. All three v225 roles passed BOOT, ports, voice and database-DLL checks. Gameplay source remains the exact R114 baseline and Launcher 0.4.21 is unchanged. The VPS serves no game blobs."
 }
