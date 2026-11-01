@@ -1,4 +1,4 @@
 {
-  "buildId": "cd20-bt-base-20261029-r113",
-  "reason": "Verify R113 restored native fashion callback data and safe classic lobby camera after publication on 2026-11-01. R112 callback argument mismatch was reproduced using the original FashionComponent consumer; the corrected signed mounted script passed full LATE and native consumer replays. Payload 3900abdaaf8bfc93ca5a7d2d873aa7d538e6ea530b02a378f8b46855af77b257 was fully verified in public GitHub before opening the channel. The VPS serves no game blobs."
+  "buildId": "cd20-bt-base-20261029-r114",
+  "reason": "Verify published R114 and Launcher 0.4.21: separate Ranked queue, TDM and Capture the Flag, voice pacing and proximity, combat fixes and ten-draw reward presentation. Signed payload 62f56ac515664a3259e761a6584df5340dc0f4ff3c560e6f5d4cc4f25172108f and the signed launcher were verified in public GitHub before channel activation. All three v224 roles passed BOOT, ports, voice and database-DLL checks. The VPS serves no game blobs."
 }
