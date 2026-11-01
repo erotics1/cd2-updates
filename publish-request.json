@@ -1,4 +1,4 @@
 {
-  "buildId": "cd20-bt-base-20261029-r111",
-  "reason": "Verify R111 native-label lifetime, stable team plates, UI/PTT error isolation and clean news switching after publication on 2026-11-01. Signed payload 059572396699c9a03194f927e64811622a8cf8c251b717cb146195a2fcb34273 was fully verified in public GitHub before opening the channel. The VPS serves no game blobs."
+  "buildId": "cd20-bt-base-20261029-r112",
+  "reason": "Verify R112 compact native voice indicators, English teammate popup and bounded classic lobby far-camera framing after publication on 2026-11-01. Signed payload dd8c67ed4919e445ac2f28e4fca8d61f19d5dea1bf00a50ef66e3f10c27a9889 was fully verified in public GitHub before opening the channel. The VPS serves no game blobs."
 }
