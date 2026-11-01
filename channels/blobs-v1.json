@@ -343,6 +343,11 @@
       "tag": "mirror-launcher-0.4.16-2eaf8023804c-premirror"
     },
     {
+      "sha256": "302ad4093ed1d34a20e0f2caa9020ed852f37813fc8301395ad09aebe6a05a7a",
+      "size": 5338,
+      "tag": "mirror-cd20-bt-base-20261029-r113-3900abdaaf8b-premirror"
+    },
+    {
       "sha256": "317f2c91d98eb32da1e1ccbb12cc64a04caf6e3f2c9618747ad173d96c4cb42c",
       "size": 46607732,
       "tag": "mirror-cd20-bt-base-20261029-r99-3bb65ba468eb-premirror"
@@ -361,6 +366,11 @@
       "sha256": "34d686a88d530e87845fc0bf61b0ed8e2969871ce4571a8d823ab8bf832468df",
       "size": 265805920,
       "tag": "mirror-cd20-bt-base-20261029-r76-b83c435f0871-premirror"
+    },
+    {
+      "sha256": "36495e91edbb846aecde688d4535f5acfe4c30d61237d8fbc0d57f3b9c5a991b",
+      "size": 42448,
+      "tag": "mirror-cd20-bt-base-20261029-r113-3900abdaaf8b-premirror"
     },
     {
       "sha256": "3747263571f619b12910fe31de8767de021890a4270653acd61c3eeee2a7e3bf",
@@ -506,6 +516,11 @@
       "sha256": "549c1154cb7880467c3efa57724e3266c5d6cd55b50812d6234053f044a87eda",
       "size": 11350201,
       "tag": "mirror-cd20-bt-base-20261026-r52b-369a02136fb6-launcher-0.4.5"
+    },
+    {
+      "sha256": "550a9a5312526d2db1fc4feefaf9a98738034ee457b85a0e3cd1790e82146af4",
+      "size": 49328510,
+      "tag": "mirror-cd20-bt-base-20261029-r113-3900abdaaf8b-premirror"
     },
     {
       "sha256": "55232e53f02f97ac33b477a92c5e6e1c1930ce237b927716f9a61eadbec7dcb3",
@@ -1333,6 +1348,11 @@
       "tag": "mirror-cd20-bt-base-20261029-r77-15bcc5ff01b1-premirror"
     },
     {
+      "sha256": "db271f5a3358bd6a7d6a8e9655af86600cccc07d253d971ac5734919d3fcb9ab",
+      "size": 701,
+      "tag": "mirror-cd20-bt-base-20261029-r113-3900abdaaf8b-premirror"
+    },
+    {
       "sha256": "db4f109fcc7cf33d443bfe9070d43340192e8b1640975265c25029cb3d422e0d",
       "size": 42427,
       "tag": "mirror-cd20-bt-base-20261028-r66-2fcb9662c1a4-launcher-0.4.9"
@@ -1593,5 +1613,5 @@
       "tag": "mirror-cd20-bt-base-20261029-r102-c246d99c9167-premirror"
     }
   ],
-  "sourceBuildId": "cd20-bt-base-20261029-r112"
+  "sourceBuildId": "cd20-bt-base-20261029-r113"
 }
