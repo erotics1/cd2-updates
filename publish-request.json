@@ -1,4 +1,4 @@
 {
-  "buildId": "cd20-bt-base-20261029-r101",
-  "reason": "Mirror check after R101 (battle message dispatch guard) on 2026-10-31: every R101 file was uploaded to GitHub before publication (premirror TODO EN GITHUB), so nothing should be missing"
+  "buildId": "cd20-bt-base-20261029-r109",
+  "reason": "Verify R109 team voice, party status, battle-pass feedback and news after publication on 2026-11-01. All final signed target artifacts (payload fb60bb947b4e853b8c0d18c161f8d754dc609ea58eacc90fb45348915371297b) were verified in public GitHub before opening the channel; the safety workflow should find every current artifact already mirrored."
 }
