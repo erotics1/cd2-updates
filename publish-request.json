@@ -1,4 +1,4 @@
 {
-  "buildId": "cd20-bt-base-20261029-r110",
-  "reason": "Verify the R110 solo-voice/rank-clone and carousel native-backplate hotfix after publication on 2026-11-01. Final signed payload 298c6548324fce8731834e6d5653a1ebec4f4c8a2e513daa40a4bfed67f47cad was fully verified in public GitHub before opening the channel. No game blobs are served by the VPS."
+  "buildId": "cd20-bt-base-20261029-r111",
+  "reason": "Verify R111 native-label lifetime, stable team plates, UI/PTT error isolation and clean news switching after publication on 2026-11-01. Signed payload 059572396699c9a03194f927e64811622a8cf8c251b717cb146195a2fcb34273 was fully verified in public GitHub before opening the channel. The VPS serves no game blobs."
 }
