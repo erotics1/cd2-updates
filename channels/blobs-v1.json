@@ -3,6 +3,11 @@
   "repository": "erotics1/cd2-updates",
   "files": [
     {
+      "sha256": "00126826e3688880f05415b2dd8dbe9a2e84d40b7922318c41eca8423de814ac",
+      "size": 84407035,
+      "tag": "mirror-cd20-bt-base-20261029-r131-f15e74c5d07f-premirror"
+    },
+    {
       "sha256": "00c9b5a764bba3c495ac2975bf073ae4726a7ca5a0e61f544d4f2df372eb1cec",
       "size": 36167768,
       "tag": "mirror-cd20-bt-base-20261028-r72-41247d412c51-launcher-0.4.14"
@@ -788,6 +793,11 @@
       "tag": "mirror-cd20-bt-base-20261029-r90-a1d46d49f9a1-premirror"
     },
     {
+      "sha256": "5cf9013ecea984007306048e23e5430708c459201f88e9e91a96fee8afa9b704",
+      "size": 42451,
+      "tag": "mirror-cd20-bt-base-20261029-r131-f15e74c5d07f-premirror"
+    },
+    {
       "sha256": "5e2de49f58f1b87470f548cf94a355e5f644f4ee35cf29dabb1f2a094790f2f8",
       "size": 42449,
       "tag": "mirror-cd20-bt-base-20261029-r100-6b210acd1222-premirror"
@@ -1188,6 +1198,11 @@
       "tag": "mirror-cd20-bt-base-20261028-r68-6492a94350b2-launcher-0.4.12"
     },
     {
+      "sha256": "982c2e246708362e3781ab208bff8037c4256890ed34fd0784cab71655ac339b",
+      "size": 701,
+      "tag": "mirror-cd20-bt-base-20261029-r131-f15e74c5d07f-premirror"
+    },
+    {
       "sha256": "985311e4e6949eff61448dc74cc7039923687aa7d6203399e7002e0f005ae3b5",
       "size": 701,
       "tag": "mirror-cd20-bt-base-20261029-r81-f30d063d92ec-premirror"
@@ -1326,6 +1341,11 @@
       "sha256": "a78d34da914e0c043ab01a5cfe17b9f28cac4dd72c1ea0b288c9452b7a3ed05d",
       "size": 42427,
       "tag": "mirror-cd20-bt-base-20261027-r65-7e2e28d73992-launcher-0.4.9"
+    },
+    {
+      "sha256": "a7ef27da542f0acaa9a8c8079e938df8c7cd02b2b29e1abf9506d3973041c9a0",
+      "size": 55801441,
+      "tag": "mirror-cd20-bt-base-20261029-r131-f15e74c5d07f-premirror"
     },
     {
       "sha256": "a858afb15f9ed2fc8b3c861abe0522e89b33ae980a31cb6f8538ea34f7056b14",
@@ -1556,6 +1576,11 @@
       "sha256": "c5bfb0e8f7e2a8cc68c08513b16ea9c2dadde6f8690cdf3ae5455ba2279a2990",
       "size": 701,
       "tag": "mirror-cd20-bt-base-20261029-r116-1b1c7f7894b5-premirror"
+    },
+    {
+      "sha256": "c97648cda14c29707504115dd9caaac107ff96b35fd1374f28b46d08d508df9f",
+      "size": 5341,
+      "tag": "mirror-cd20-bt-base-20261029-r131-f15e74c5d07f-premirror"
     },
     {
       "sha256": "c9d9f4377878bc74d462033a7f0e58037037364f28a54258d561d4eaa6731593",
@@ -2073,5 +2098,5 @@
       "tag": "mirror-cd20-bt-base-20261029-r102-c246d99c9167-premirror"
     }
   ],
-  "sourceBuildId": "cd20-bt-base-20261029-r130"
+  "sourceBuildId": "cd20-bt-base-20261029-r131"
 }
