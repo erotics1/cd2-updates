@@ -78,6 +78,11 @@
       "tag": "mirror-cd20-bt-base-20261103-r131s-06ffee09d8ef-premirror"
     },
     {
+      "sha256": "0488e1a1a2a6fd8e2b0a8d6e6ea909477d6ca6113acff604c6e5a6eaf9da2eeb",
+      "size": 115562718,
+      "tag": "mirror-cd20-bt-base-20261029-r142-a96c1a740e1e-premirror"
+    },
+    {
       "sha256": "05ddbfb735b4494eeecf65d15fae88b0955938b86496dd6b3050087b42559b7c",
       "size": 123175666,
       "tag": "mirror-cd20-bt-base-20261026-r52b-369a02136fb6-launcher-0.4.5"
@@ -101,6 +106,11 @@
       "sha256": "0771a8ed3090abb0a496817bfd078b925a6101a2c5c7a30f8f893a639cbe6213",
       "size": 701,
       "tag": "mirror-cd20-bt-base-20261103-r134s-97273aca8359-premirror"
+    },
+    {
+      "sha256": "07d1b5a3083e9d3bbc12b04258743648f5bf1fcd52edf786e3fa49d2d7d048e8",
+      "size": 4844040,
+      "tag": "mirror-cd20-bt-base-20261029-r142-a96c1a740e1e-premirror"
     },
     {
       "sha256": "08ed051a8262695076159c07f7c129d666ad7b8bd92c5e95732e96cc4fd67127",
@@ -221,6 +231,11 @@
       "sha256": "11232d7a055be1c51e5e73d9351a20d4eeff9afb1127f970393812f8b2e1dda6",
       "size": 58284232,
       "tag": "mirror-cd20-bt-base-20261029-r137-ef6f9c8930e4-premirror"
+    },
+    {
+      "sha256": "11de6a1c3e53791bddd4ce11e4777a43605cd1c05b8beb69d8dd13cea22fc3df",
+      "size": 701,
+      "tag": "mirror-cd20-bt-base-20261029-r142-a96c1a740e1e-premirror"
     },
     {
       "sha256": "1273005e95ac8659afb7a4d49a04b99ae71469d9745e15b72069c7b73ded310d",
@@ -531,6 +546,11 @@
       "sha256": "2a738232772278a670905017c5d578b32fcb9ab1f068b4bcb652d1f11df4c497",
       "size": 10019696,
       "tag": "mirror-launcher-0.4.21-2a7382327722-premirror"
+    },
+    {
+      "sha256": "2ae2d062ea1293653c1495a8a886c2d637fcaac5a6d444dd3b8ba67000dcfdd0",
+      "size": 5342,
+      "tag": "mirror-cd20-bt-base-20261029-r142-a96c1a740e1e-premirror"
     },
     {
       "sha256": "2b99581ebe597006d9bb0345a0d7a34aed2f2a871b571ebe11a50e1cc0217ae1",
@@ -1313,6 +1333,11 @@
       "tag": "mirror-cd20-bt-base-20261029-r139-99c2d387a126-premirror"
     },
     {
+      "sha256": "85cdeefc9fcc1c534cc48e2f9ddfaba1bc813da4739922e45e48d56c19119866",
+      "size": 60763530,
+      "tag": "mirror-cd20-bt-base-20261029-r142-a96c1a740e1e-premirror"
+    },
+    {
       "sha256": "85f3790b4845432b93035afa6d3668952f5baea5eb163efbfc7e44b08cf14a0d",
       "size": 42453,
       "tag": "mirror-cd20-bt-base-20261103-r136s-cde4467233a4-premirror"
@@ -1351,6 +1376,11 @@
       "sha256": "8b7935f71b1296a353a1191a037e5370c748a71e93942b2891e570404f171a11",
       "size": 5341,
       "tag": "mirror-cd20-bt-base-20261029-r121-ffbdeca752ac-premirror"
+    },
+    {
+      "sha256": "8be10264ec0dac0ddcce912171e280b0a0db024afc49809458ee67d11bfbb63d",
+      "size": 42452,
+      "tag": "mirror-cd20-bt-base-20261029-r142-a96c1a740e1e-premirror"
     },
     {
       "sha256": "8cbade0bef97c6dea9bbae9efed663ff1b56923f5040c750bce54f4dcb2a979f",
@@ -2508,5 +2538,5 @@
       "tag": "mirror-cd20-bt-base-20261029-r102-c246d99c9167-premirror"
     }
   ],
-  "sourceBuildId": "cd20-bt-base-20261103-r141s"
+  "sourceBuildId": "cd20-bt-base-20261029-r142"
 }
