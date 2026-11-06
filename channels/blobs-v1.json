@@ -2713,6 +2713,11 @@
       "tag": "mirror-cd20-bt-base-20261028-r74-d1d8637c44d5-launcher-0.4.14"
     },
     {
+      "sha256": "f8cd29813f247fd84bdacd78ef5cb31ffae15349232f6bbe202b4fe7cd9ce8bb",
+      "size": 10050928,
+      "tag": "mirror-launcher-0.4.24-f8cd29813f24-premirror"
+    },
+    {
       "sha256": "f926365497ca941286d1cacd6bae95a6a708c469b31d3ca79eefd78e688b585f",
       "size": 5341,
       "tag": "mirror-cd20-bt-base-20261029-r120-28d275b6cbe0-premirror"
@@ -2793,5 +2798,5 @@
       "tag": "mirror-cd20-bt-base-20261029-r102-c246d99c9167-premirror"
     }
   ],
-  "sourceBuildId": "cd20-bt-base-20261106-r149s"
+  "sourceBuildId": "cd20-bt-base-20261029-r149"
 }
