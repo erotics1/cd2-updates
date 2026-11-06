@@ -2488,6 +2488,11 @@
       "tag": "mirror-cd20-bt-base-20261029-r144-d862274ba02d-premirror"
     },
     {
+      "sha256": "e58773a579a9b271d599c8b1bb6891bdb933e5e3b0404ff92bddf639096c04e4",
+      "size": 10069872,
+      "tag": "mirror-launcher-0.4.25-e58773a579a9-premirror"
+    },
+    {
       "sha256": "e5b6f412b606ee085bd819ffe8b81c59760be1de65f5293ec86fcc03e3632c24",
       "size": 42449,
       "tag": "mirror-cd20-bt-base-20261029-r79-4c5732596c01-premirror"
@@ -2808,5 +2813,5 @@
       "tag": "mirror-cd20-bt-base-20261029-r102-c246d99c9167-premirror"
     }
   ],
-  "sourceBuildId": "cd20-bt-base-20261029-r149"
+  "sourceBuildId": "cd20-bt-base-20261106-r149s"
 }
