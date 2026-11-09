@@ -38,6 +38,11 @@
       "tag": "mirror-cd20-bt-base-20261029-r111-059572396699-premirror"
     },
     {
+      "sha256": "01bdbfc52340f0fdf0994b97b85256024d3b7e68bb100951ec126cddcde2f172",
+      "size": 73227956,
+      "tag": "mirror-cd20-bt-base-20261029-r174-467157e46194-premirror"
+    },
+    {
       "sha256": "01df2155744aa6b1922183edf30117a35dbeca44021a9298828d7fefa6fbc8ec",
       "size": 8991232,
       "tag": "mirror-cd20-bt-base-20261028-r68-6492a94350b2-launcher-0.4.13"
@@ -1713,6 +1718,11 @@
       "tag": "mirror-cd20-bt-base-20261029-r144-d862274ba02d-premirror"
     },
     {
+      "sha256": "7f80793b04ab55d08c5756cc3f9d3cb55cc36bd912904c2e71030a302c666a33",
+      "size": 5342,
+      "tag": "mirror-cd20-bt-base-20261029-r174-467157e46194-premirror"
+    },
+    {
       "sha256": "7f845ea48e955c21148846b1417c97c0d15e4cf2b82a3f14607048a476a18f94",
       "size": 54258712,
       "tag": "mirror-cd20-bt-base-20261029-r127-ee0f72c1aebb-premirror"
@@ -2123,6 +2133,11 @@
       "tag": "mirror-cd20-bt-base-20261029-r147-ccbe3fd83615-premirror"
     },
     {
+      "sha256": "9d32c1ba18321bbd134b950bf8f77d1c574841f384270650e766b1e482df8b98",
+      "size": 676,
+      "tag": "mirror-cd20-bt-base-20261029-r174-467157e46194-premirror"
+    },
+    {
       "sha256": "9d581ec8fb4aacf9bcb108ea41392f172b13d7da9794df140c268b6ba13a294b",
       "size": 42406,
       "tag": "mirror-cd20-bt-base-20261027-r62-68cf8a93cdd2-launcher-0.4.9"
@@ -2251,6 +2266,11 @@
       "sha256": "a67bd9bea88291c9fbbf76c5b009e8e16c85395b1a264af3ea12c0092f89e221",
       "size": 701,
       "tag": "mirror-cd20-bt-base-20261029-r136-c144d947364b-premirror"
+    },
+    {
+      "sha256": "a68fd216b06a273cf421268858b10c2aec9b9757db76522691a5aed792e7dc73",
+      "size": 168928300,
+      "tag": "mirror-cd20-bt-base-20261029-r174-467157e46194-premirror"
     },
     {
       "sha256": "a6a7aa24101abccf840beb546da70badae39fa8a86bce52e808afffd3c9f5990",
@@ -3408,6 +3428,11 @@
       "tag": "mirror-cd20-bt-base-20261105-r148s-d6e6ce3e3032-premirror"
     },
     {
+      "sha256": "f6037bdb3de3eda4534e82abbb8e13d356036d546dec12bc9e02b48a0418a48b",
+      "size": 42551,
+      "tag": "mirror-cd20-bt-base-20261029-r174-467157e46194-premirror"
+    },
+    {
       "sha256": "f712d90b4539361dbb23b8bc3932eecd0d6037a22af35865fd6daa7859bee1d2",
       "size": 5342,
       "tag": "mirror-cd20-bt-base-20261107-r160s-520e861d17a4-premirror"
@@ -3543,5 +3568,5 @@
       "tag": "mirror-cd20-bt-base-20261029-r102-c246d99c9167-premirror"
     }
   ],
-  "sourceBuildId": "cd20-bt-base-20261029-r173"
+  "sourceBuildId": "cd20-bt-base-20261029-r174"
 }
