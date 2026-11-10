@@ -1558,6 +1558,11 @@
       "tag": "mirror-cd20-bt-base-20261029-r140-f0565defefa2-premirror"
     },
     {
+      "sha256": "6f04bea52fc2e2ca3bf9a3aac35a3a880101460502c81bcdcbbaf16bf6c19669",
+      "size": 42553,
+      "tag": "mirror-cd20-bt-base-20261029-r176-fd8ec7ecb13f-premirror"
+    },
+    {
       "sha256": "6f1f529c84907ed16985dc2f636e86318364aee479304e6ace23c21ad4047aa8",
       "size": 5341,
       "tag": "mirror-cd20-bt-base-20261029-r130-e6aadf08021f-premirror"
@@ -2748,6 +2753,11 @@
       "tag": "mirror-cd20-bt-base-20261029-r102-c246d99c9167-premirror"
     },
     {
+      "sha256": "c57f18d260c7142e68c7e3a6ed3c6eb3d4c4ee5bfaf112d8644cac134a188b20",
+      "size": 5342,
+      "tag": "mirror-cd20-bt-base-20261029-r176-fd8ec7ecb13f-premirror"
+    },
+    {
       "sha256": "c5bfb0e8f7e2a8cc68c08513b16ea9c2dadde6f8690cdf3ae5455ba2279a2990",
       "size": 701,
       "tag": "mirror-cd20-bt-base-20261029-r116-1b1c7f7894b5-premirror"
@@ -3213,6 +3223,11 @@
       "tag": "mirror-cd20-bt-base-20261029-r104-5aeb4d650830-premirror"
     },
     {
+      "sha256": "e5d1e558376d4703cdbe190598806806f3977a3c12791cf29c029cb1f215e684",
+      "size": 676,
+      "tag": "mirror-cd20-bt-base-20261029-r176-fd8ec7ecb13f-premirror"
+    },
+    {
       "sha256": "e5d3bb7de5c9c0acb1c40a11f42a4aa91eb12b4d7315507f489f306fbe3251f5",
       "size": 118588840,
       "tag": "mirror-cd20-bt-base-20261027-r58-0d3f9cd208f3-launcher-0.4.7"
@@ -3448,6 +3463,11 @@
       "tag": "mirror-cd20-bt-base-20261105-r148s-d6e6ce3e3032-premirror"
     },
     {
+      "sha256": "f5be1dbd46874849a8e08a26b2d1eda50b0df6e2821edbbee337d6be473b5291",
+      "size": 74224170,
+      "tag": "mirror-cd20-bt-base-20261029-r176-fd8ec7ecb13f-premirror"
+    },
+    {
       "sha256": "f6037bdb3de3eda4534e82abbb8e13d356036d546dec12bc9e02b48a0418a48b",
       "size": 42551,
       "tag": "mirror-cd20-bt-base-20261029-r174-467157e46194-premirror"
@@ -3588,5 +3608,5 @@
       "tag": "mirror-cd20-bt-base-20261029-r102-c246d99c9167-premirror"
     }
   ],
-  "sourceBuildId": "cd20-bt-base-20261029-r175"
+  "sourceBuildId": "cd20-bt-base-20261029-r176"
 }
