@@ -488,6 +488,11 @@
       "tag": "mirror-cd20-bt-base-20261103-r137s-8220fa950390-premirror"
     },
     {
+      "sha256": "1b6199d13b1f942c6d4e63ef5656079d37e01ac41f4bfeede07325156e28e8b6",
+      "size": 1900000000,
+      "tag": "mirror-base-rakion-rakion-onyx-1281"
+    },
+    {
       "sha256": "1b72a79d472232bc835481c49d97847071a8ffd9ee21e30f00cdbc0569294e5f",
       "size": 42551,
       "tag": "mirror-cd20-bt-base-20261029-r172-b8816928cbd0-premirror"
@@ -1441,6 +1446,11 @@
       "sha256": "6440fdabb82ce2e155d8b7d761d94b91691bdc149fe7d2d81f64f28432ebb486",
       "size": 42449,
       "tag": "mirror-cd20-bt-base-20261028-r74-d1d8637c44d5-launcher-0.4.14"
+    },
+    {
+      "sha256": "649cc507e6ebcf1933f9afc51c1f81a530812afd528e74c431f9e4ea5df3ddb9",
+      "size": 1473465650,
+      "tag": "mirror-base-rakion-rakion-onyx-1281"
     },
     {
       "sha256": "64a5bef1762aa04b957d4d9bd2dadbe2f0e087d89e7d226a956c1dedcf57ddb7",
