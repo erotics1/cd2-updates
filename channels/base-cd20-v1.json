@@ -1,0 +1,21 @@
+{
+ "schemaVersion": 1,
+ "game": "cd20",
+ "buildId": "cd20-bt-base-20261029-r176",
+ "volumes": [
+  {
+   "sha256": "7ffb3bbc752bcaedacaf67611ea66c0596a25b0c6536acbcbb35c9b366463a71",
+   "size": 1900000000
+  },
+  {
+   "sha256": "7f6999f505ba552cb3c7bdfacf3ac42ad13e4df44c5dbdcd9cc1a097883c5734",
+   "size": 1900000000
+  },
+  {
+   "sha256": "0ebf24742f2830b3d5cd8d43c5128fa4674e87781d39cf25188c5054b211b803",
+   "size": 1660715493
+  }
+ ],
+ "unpackedBytes": 5568779567,
+ "files": 166
+}
