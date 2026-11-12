@@ -314,6 +314,11 @@
       "tag": "mirror-rk-na-1278"
     },
     {
+      "sha256": "668eb898fc473ae19bd9cd4641aacfec3c56e89ae9acfec2e7a178fe1fbca85d",
+      "size": 973312,
+      "tag": "mirror-rk-na-1282"
+    },
+    {
       "sha256": "66aed8ede54e461ec33494b44da4f93cc9ba7de8c5998d7db1148f9af66cf260",
       "size": 245140,
       "tag": "mirror-rk-na-1277"
