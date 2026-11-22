@@ -3237,6 +3237,11 @@
       "tag": "mirror-vg-na-1"
     },
     {
+      "sha256": "58b9a80dbd568bc78c8e6f4c36eb3b7e59fa75d7ac5cc08c72919a397ba00ad1",
+      "size": 10912256,
+      "tag": "mirror-vg-na-12"
+    },
+    {
       "sha256": "58ea5ffcb40664240bb88d1753e27867204fc05511cc5dae32333f54dc3f6b90",
       "size": 4260,
       "tag": "mirror-vg-na-1"
