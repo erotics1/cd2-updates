@@ -4,6 +4,11 @@
   "channel": "RK-NA",
   "files": [
     {
+      "sha256": "00b7c4578aed8b81c3c52d5e7cca489d6d773e1784d3e23476ffc4e575c33dd7",
+      "size": 28467744,
+      "tag": "mirror-rk-na-1286"
+    },
+    {
       "sha256": "0274b388ff596495ce14a313ab6768230b411255bd625b7dd4b02a343b2d5d18",
       "size": 739209,
       "tag": "mirror-rk-na-1278"
@@ -299,6 +304,16 @@
       "tag": "mirror-rk-na-1277"
     },
     {
+      "sha256": "5fe858aa5a913e6bd791ef8539aa2a6617b0639b3223c4274074a262861523d8",
+      "size": 11989,
+      "tag": "mirror-rk-na-1286"
+    },
+    {
+      "sha256": "62d17bfa9987658517e6c720a2d4454fe76f7945fd4bc160ca4f047de7729a5d",
+      "size": 10240,
+      "tag": "mirror-rk-na-1286"
+    },
+    {
       "sha256": "6314e24ed480396e283f7eec58ba6b8af3e89a3e7ee83fb0c71c4958fd0f603c",
       "size": 192740,
       "tag": "mirror-rk-na-1277"
@@ -484,6 +499,11 @@
       "tag": "mirror-rk-na-1277"
     },
     {
+      "sha256": "8d0d1c3a4bddc8cca60665acc4f88610cb50a088f929139ad236a1fe1051f064",
+      "size": 885760,
+      "tag": "mirror-rk-na-1286"
+    },
+    {
       "sha256": "8d68ffc484bcfc1a0adf4528a850d722417ff003e5d0fe47ce00ab634e9fdd98",
       "size": 769713,
       "tag": "mirror-rk-na-1278"
@@ -624,6 +644,11 @@
       "tag": "mirror-rk-na-1277"
     },
     {
+      "sha256": "bd3217c9de1acbaf9cbed54de0c36deb4fce6f2c111932d8ed3f4cb003dc5b6f",
+      "size": 797,
+      "tag": "mirror-rk-na-1286"
+    },
+    {
       "sha256": "bd8c145abdf3f8383276ce01dfa4ae48709bef9fef1c0711eb7c3fab4f6eb7c2",
       "size": 10876560,
       "tag": "mirror-rk-na-1278"
@@ -739,14 +764,29 @@
       "tag": "mirror-rk-na-1278"
     },
     {
+      "sha256": "e4683328bfd1e9f1c9dde9e44a39f6df6db3250a0ae20c2d14128bcccda3201c",
+      "size": 89261596,
+      "tag": "mirror-rk-na-1286"
+    },
+    {
       "sha256": "e932bdebf708776e4862a8213738bc1148bed62b6943efcdc2c68e7da79d36db",
       "size": 25625088,
       "tag": "mirror-rk-na-1278"
     },
     {
+      "sha256": "ea3666038aa5b6442249f0c0cb4ee646553f476a50a0245f2b51b193e88fbb33",
+      "size": 996352,
+      "tag": "mirror-rk-na-1286"
+    },
+    {
       "sha256": "ea60c62f2ca69036c19e5f818c5658edc7b48c8f414c3976f665f98b77e7d408",
       "size": 9741,
       "tag": "mirror-rk-na-1278"
+    },
+    {
+      "sha256": "ec8c57c49f1f9165ae59ff80dd67bf03bef5f071533d65ce3a9cf94e447c5772",
+      "size": 578048,
+      "tag": "mirror-rk-na-1286"
     },
     {
       "sha256": "ecb8a367a027b4c24b51142dbf33edadd3de7a91a5904b43b7a00e8837964d85",
@@ -782,6 +822,11 @@
       "sha256": "f3b52cccf70823a843c41ef96f059bc1361b4db32ffe3de6253a566ed22c0392",
       "size": 989696,
       "tag": "mirror-rk-na-1285"
+    },
+    {
+      "sha256": "f45bcdff968145a5dce34573d4fab0e8c88cde03a2dd07baa0646a84dbc8a10d",
+      "size": 97566284,
+      "tag": "mirror-rk-na-1286"
     },
     {
       "sha256": "f4b825d3a50f61fdce70d6d8de0c6666b952ce2875bb1a578e26dd2f891552ed",
