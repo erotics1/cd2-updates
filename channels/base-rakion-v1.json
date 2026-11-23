@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "game": "rakion",
+  "buildId": "rakion-onyx-1286",
+  "volumes": [
+    {
+      "sha256": "2c0dc50bd651aa96b5963df1c6cee06a0bd53ec54a95410c208ade13de7d0640",
+      "size": 1900000000
+    },
+    {
+      "sha256": "e6f8142b433b4abb411b69bd33d58da936486a0d9abb7bd0cab3731d2cdb51a4",
+      "size": 1749256178
+    }
+  ],
+  "unpackedBytes": 3649191128,
+  "files": 428
+}
