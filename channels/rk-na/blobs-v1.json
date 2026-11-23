@@ -149,6 +149,11 @@
       "tag": "mirror-rk-na-1278"
     },
     {
+      "sha256": "2c0dc50bd651aa96b5963df1c6cee06a0bd53ec54a95410c208ade13de7d0640",
+      "size": 1900000000,
+      "tag": "mirror-rk-na-1286"
+    },
+    {
       "sha256": "2cfc6d3325efdbf9b66653f4ccde33c9bb24f2cdd780ca2a25d9545b773147ca",
       "size": 1657250,
       "tag": "mirror-rk-na-1278"
@@ -766,6 +771,11 @@
     {
       "sha256": "e4683328bfd1e9f1c9dde9e44a39f6df6db3250a0ae20c2d14128bcccda3201c",
       "size": 89261596,
+      "tag": "mirror-rk-na-1286"
+    },
+    {
+      "sha256": "e6f8142b433b4abb411b69bd33d58da936486a0d9abb7bd0cab3731d2cdb51a4",
+      "size": 1749256178,
       "tag": "mirror-rk-na-1286"
     },
     {
