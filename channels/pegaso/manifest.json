@@ -2335,9 +2335,9 @@
   {
    "path": "Metin2Release_x64.exe",
    "size": 12574720,
-   "crc32": 1359022956,
-   "sha256": "ab7422cb99395fb98e3a5703d6e401042ed0ea8c058459398f8f80c0d44566d9",
-   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ab7422cb99395fb98e3a5703d6e401042ed0ea8c058459398f8f80c0d44566d9.bin"
+   "crc32": 3765752451,
+   "sha256": "2f965d1d4a7f8182bfc0fa5aa5ba5f7dff8cc1a6b8e50a05826fb4b034f3f53c",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.1/2f965d1d4a7f8182bfc0fa5aa5ba5f7dff8cc1a6b8e50a05826fb4b034f3f53c.bin"
   },
   {
    "path": "mouse.cfg",
