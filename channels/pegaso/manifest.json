@@ -1,6 +1,28 @@
 {
  "version": "1.0.0",
  "base_url": "",
+ "dirs": [
+  "D3D12",
+  "Data",
+  "Data/UserData",
+  "Data/UserData/autochat",
+  "Data/UserData/messenger",
+  "Data/UserData/whisper",
+  "Data/sound",
+  "bgm",
+  "lib",
+  "lib/encodings",
+  "locales",
+  "mark",
+  "pack",
+  "screenshot",
+  "shadercache",
+  "shop",
+  "source",
+  "source/RenderCore",
+  "source/RenderCore/Shaders",
+  "upload"
+ ],
  "files": [
   {
    "path": "bgm/a_rhapsody_of_war.mp3",
