@@ -1,5 +1,5 @@
 {
- "version": "1.0.0",
+ "version": "1.0.1",
  "base_url": "",
  "dirs": [
   "D3D12",
@@ -2391,10 +2391,10 @@
   },
   {
    "path": "pack/root",
-   "size": 17915919,
-   "crc32": 1407321289,
-   "sha256": "06b30e8b3955b89971078f6cddd7a09bd02dd4f895af1c6cae46cf390acd6d98",
-   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/06b30e8b3955b89971078f6cddd7a09bd02dd4f895af1c6cae46cf390acd6d98.bin"
+   "size": 17923927,
+   "crc32": 4016191512,
+   "sha256": "794146f996da2f2df34cc7a68deabaefedf887de507c181d70d3e2eee375ba7a",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.1/794146f996da2f2df34cc7a68deabaefedf887de507c181d70d3e2eee375ba7a.bin"
   },
   {
    "path": "pack/saryong_chapter2",
