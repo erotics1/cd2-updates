@@ -1,0 +1,10 @@
+{
+ "version": "1.0.0",
+ "manifest_url": "https://raw.githubusercontent.com/erotics1/cd2-updates/main/channels/pegaso/manifest.json",
+ "launcher": {
+  "version": "1.0.0",
+  "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-launcher-1.0.0/PegasoLauncher.exe",
+  "size": 162274380,
+  "sha256": "1c0b92229c25aa3abf7b09dfde8819306cbfaff4c78060f6d9fa2144de129a3e"
+ }
+}
