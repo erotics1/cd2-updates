@@ -21,6 +21,7 @@
   "source",
   "source/RenderCore",
   "source/RenderCore/Shaders",
+  "syserr",
   "upload"
  ],
  "files": [
