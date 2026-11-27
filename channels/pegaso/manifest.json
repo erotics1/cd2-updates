@@ -1,5 +1,5 @@
 {
- "version": "1.0.1",
+ "version": "1.0.2",
  "base_url": "",
  "dirs": [
   "D3D12",
@@ -2335,10 +2335,10 @@
   },
   {
    "path": "Metin2Release_x64.exe",
-   "size": 12574720,
-   "crc32": 3765752451,
-   "sha256": "2f965d1d4a7f8182bfc0fa5aa5ba5f7dff8cc1a6b8e50a05826fb4b034f3f53c",
-   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.1/2f965d1d4a7f8182bfc0fa5aa5ba5f7dff8cc1a6b8e50a05826fb4b034f3f53c.bin"
+   "size": 12575232,
+   "crc32": 1686844388,
+   "sha256": "9e231a5a3060f42ece86bec8cecf1726ad5f49d9bf452cc45edb074354c2d8db",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.2/9e231a5a3060f42ece86bec8cecf1726ad5f49d9bf452cc45edb074354c2d8db.bin"
   },
   {
    "path": "mouse.cfg",
