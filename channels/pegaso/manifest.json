@@ -1,5 +1,5 @@
 {
- "version": "1.0.12",
+ "version": "1.0.13",
  "base_url": "",
  "dirs": [
   "D3D12",
@@ -2459,10 +2459,10 @@
   },
   {
    "path": "pack/saryong_ui",
-   "size": 194853938,
-   "crc32": 4099525112,
-   "sha256": "2ed8374de1a5121adcd09223f7937bcb236155400883bf82b2bdd269600c5307",
-   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.12/2ed8374de1a5121adcd09223f7937bcb236155400883bf82b2bdd269600c5307.bin"
+   "size": 194853425,
+   "crc32": 1680834312,
+   "sha256": "b372c7256f5b2a0b4c68fd2abea2835895c0b48dc021c2b4abbb55965b34065f",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.13/b372c7256f5b2a0b4c68fd2abea2835895c0b48dc021c2b4abbb55965b34065f.bin"
   },
   {
    "path": "pack/season",
