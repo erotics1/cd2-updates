@@ -1,5 +1,5 @@
 {
- "version": "1.0.2",
+ "version": "1.0.3",
  "base_url": "",
  "dirs": [
   "D3D12",
@@ -2336,9 +2336,9 @@
   {
    "path": "Metin2Release_x64.exe",
    "size": 12575232,
-   "crc32": 1686844388,
-   "sha256": "9e231a5a3060f42ece86bec8cecf1726ad5f49d9bf452cc45edb074354c2d8db",
-   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.2/9e231a5a3060f42ece86bec8cecf1726ad5f49d9bf452cc45edb074354c2d8db.bin"
+   "crc32": 2077351231,
+   "sha256": "955094489cf7ec4ced1c515dd2d5f714ecd71d3976213e6eadd1ea31f5dca38e",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.3/955094489cf7ec4ced1c515dd2d5f714ecd71d3976213e6eadd1ea31f5dca38e.bin"
   },
   {
    "path": "mouse.cfg",
@@ -2364,17 +2364,17 @@
   },
   {
    "path": "pack/icon",
-   "size": 26755503,
-   "crc32": 1784414663,
-   "sha256": "f16a77f7151f34b694226d76c9bdd6bf494c4b311c02aec4514d8a06f0a0b1fb",
-   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/f16a77f7151f34b694226d76c9bdd6bf494c4b311c02aec4514d8a06f0a0b1fb.bin"
+   "size": 26759120,
+   "crc32": 2663048607,
+   "sha256": "90ebac3a664fd75b1df3bc9451b8ae46e3e5346f4a4384d3a755a0963126c90f",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.3/90ebac3a664fd75b1df3bc9451b8ae46e3e5346f4a4384d3a755a0963126c90f.bin"
   },
   {
    "path": "pack/locale",
-   "size": 53489032,
-   "crc32": 3555058629,
-   "sha256": "8677e59179f09b8bea028fa4a2645d975e9f0d57db986cfad6e7220b7555f5cc",
-   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/8677e59179f09b8bea028fa4a2645d975e9f0d57db986cfad6e7220b7555f5cc.bin"
+   "size": 53484636,
+   "crc32": 3028628850,
+   "sha256": "780f859bb800f7d7ca6f017c6e18ef352b25c08c8d33b970150d0777048d7ea4",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.3/780f859bb800f7d7ca6f017c6e18ef352b25c08c8d33b970150d0777048d7ea4.bin"
   },
   {
    "path": "pack/maps",
@@ -2392,10 +2392,10 @@
   },
   {
    "path": "pack/root",
-   "size": 17923927,
-   "crc32": 4016191512,
-   "sha256": "794146f996da2f2df34cc7a68deabaefedf887de507c181d70d3e2eee375ba7a",
-   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.1/794146f996da2f2df34cc7a68deabaefedf887de507c181d70d3e2eee375ba7a.bin"
+   "size": 17932635,
+   "crc32": 2293484334,
+   "sha256": "9b76cc80e2d108739a90abd0b9dea1f46e9aeca3eb67a8664de443283a53360d",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.3/9b76cc80e2d108739a90abd0b9dea1f46e9aeca3eb67a8664de443283a53360d.bin"
   },
   {
    "path": "pack/saryong_chapter2",
@@ -2693,9 +2693,10 @@
   },
   {
    "path": "voicechat.cfg",
-   "size": 0,
-   "crc32": 0,
-   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "size": 31,
+   "crc32": 3566622494,
+   "sha256": "c668578fac2c3df1461a25f94478fbac785cd20382fe8cbbd61dfdc029cef172",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.3/c668578fac2c3df1461a25f94478fbac785cd20382fe8cbbd61dfdc029cef172.bin",
    "keep": true
   },
   {
