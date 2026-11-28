@@ -1,5 +1,5 @@
 {
- "version": "1.0.14",
+ "version": "1.0.15",
  "base_url": "",
  "dirs": [
   "D3D12",
@@ -2382,10 +2382,10 @@
   },
   {
    "path": "pack/locale",
-   "size": 53519275,
-   "crc32": 3533911120,
-   "sha256": "288fad4978f95f982c0f5fb6e7325117739a5a6a1e6486d1ff7b35cf3a95fca0",
-   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.14/288fad4978f95f982c0f5fb6e7325117739a5a6a1e6486d1ff7b35cf3a95fca0.bin"
+   "size": 53519611,
+   "crc32": 2091161870,
+   "sha256": "a27427ef83044d6ca3e02a07cc3c20e3616ac54621a91a83e14886ebb4ec87a3",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.15/a27427ef83044d6ca3e02a07cc3c20e3616ac54621a91a83e14886ebb4ec87a3.bin"
   },
   {
    "path": "pack/maps",
@@ -2403,10 +2403,10 @@
   },
   {
    "path": "pack/root",
-   "size": 17951859,
-   "crc32": 3844862450,
-   "sha256": "96109cfc120a2a497af6f574240303e189ef13abc27cefd9359c66fe2fbb76a6",
-   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.14/96109cfc120a2a497af6f574240303e189ef13abc27cefd9359c66fe2fbb76a6.bin"
+   "size": 17951905,
+   "crc32": 1139168459,
+   "sha256": "398477a362cb1c17fd433c1c7bfe95c49441ccaefa9baffcf84a20fc1a43a394",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.15/398477a362cb1c17fd433c1c7bfe95c49441ccaefa9baffcf84a20fc1a43a394.bin"
   },
   {
    "path": "pack/saryong_chapter2",
@@ -2431,10 +2431,10 @@
   },
   {
    "path": "pack/saryong_costume2",
-   "size": 418267784,
-   "crc32": 4191303626,
-   "sha256": "4ab36b903cdb057931558fec007eb09968a528c85f98ae427fd1bcbc0af4be3e",
-   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.11/4ab36b903cdb057931558fec007eb09968a528c85f98ae427fd1bcbc0af4be3e.bin"
+   "size": 418268165,
+   "crc32": 2509836389,
+   "sha256": "d5a427c4303f5d25820ec8c71dce1f48429473bf145b3cbfa9e9f9e3e61c1661",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.15/d5a427c4303f5d25820ec8c71dce1f48429473bf145b3cbfa9e9f9e3e61c1661.bin"
   },
   {
    "path": "pack/saryong_effect",
