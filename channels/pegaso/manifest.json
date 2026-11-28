@@ -1,5 +1,5 @@
 {
- "version": "1.0.6",
+ "version": "1.0.7",
  "base_url": "",
  "dirs": [
   "D3D12",
@@ -2346,10 +2346,10 @@
   },
   {
    "path": "Metin2Release_x64.exe",
-   "size": 12575232,
-   "crc32": 1633284082,
-   "sha256": "8b545871a6759945c4c6a78917a2312c7d00522372dd4b047500f714b7b3bc3a",
-   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.5/8b545871a6759945c4c6a78917a2312c7d00522372dd4b047500f714b7b3bc3a.bin"
+   "size": 12575744,
+   "crc32": 1927082424,
+   "sha256": "ca12d8840f44d880ef5c62216e79e283d3c43e36adeca815d847f4a0c98c76cb",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.7/ca12d8840f44d880ef5c62216e79e283d3c43e36adeca815d847f4a0c98c76cb.bin"
   },
   {
    "path": "mouse.cfg",
@@ -2403,10 +2403,10 @@
   },
   {
    "path": "pack/root",
-   "size": 17941484,
-   "crc32": 1656696995,
-   "sha256": "291e4c74822aaea90e8908132feaf641b126b4bbc08e79dba9a68e901effe542",
-   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.6/291e4c74822aaea90e8908132feaf641b126b4bbc08e79dba9a68e901effe542.bin"
+   "size": 17941912,
+   "crc32": 2464594642,
+   "sha256": "ef1b179a81ae5ab775a09018c04391d2a3185636dbc443d13c2af13d106906ec",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.7/ef1b179a81ae5ab775a09018c04391d2a3185636dbc443d13c2af13d106906ec.bin"
   },
   {
    "path": "pack/saryong_chapter2",
@@ -2698,9 +2698,9 @@
   {
    "path": "voice_chat_core_Release_x64.dll",
    "size": 1262592,
-   "crc32": 4100946999,
-   "sha256": "52fd1268dd71196bd4f6a378f2c6a498309a06a2c5a1255cdac3c89b4947a822",
-   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/52fd1268dd71196bd4f6a378f2c6a498309a06a2c5a1255cdac3c89b4947a822.bin"
+   "crc32": 1202145430,
+   "sha256": "872fa059288a31a0dee4b13a37f53a1e300b1652d9b923036a8955c6be44a098",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.7/872fa059288a31a0dee4b13a37f53a1e300b1652d9b923036a8955c6be44a098.bin"
   },
   {
    "path": "voicechat.cfg",
