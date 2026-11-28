@@ -1,5 +1,5 @@
 {
- "version": "1.0.8",
+ "version": "1.0.9",
  "base_url": "",
  "dirs": [
   "D3D12",
@@ -2346,10 +2346,10 @@
   },
   {
    "path": "Metin2Release_x64.exe",
-   "size": 12576256,
-   "crc32": 2370524070,
-   "sha256": "4d238d19e89f13a93dd1d6f1dc356ed318f660280acc79d9455f1ed0f5cc2ce0",
-   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.8/4d238d19e89f13a93dd1d6f1dc356ed318f660280acc79d9455f1ed0f5cc2ce0.bin"
+   "size": 12578816,
+   "crc32": 1787668758,
+   "sha256": "de3969ed9aa8d5f2c01e760d4136f14ef8b93d6f18b24f86a5d025f8602dcf46",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.9/de3969ed9aa8d5f2c01e760d4136f14ef8b93d6f18b24f86a5d025f8602dcf46.bin"
   },
   {
    "path": "mouse.cfg",
@@ -2382,10 +2382,10 @@
   },
   {
    "path": "pack/locale",
-   "size": 53484636,
-   "crc32": 3028628850,
-   "sha256": "780f859bb800f7d7ca6f017c6e18ef352b25c08c8d33b970150d0777048d7ea4",
-   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.3/780f859bb800f7d7ca6f017c6e18ef352b25c08c8d33b970150d0777048d7ea4.bin"
+   "size": 53484920,
+   "crc32": 316306539,
+   "sha256": "d8bd38bd55a2232abe730b2dbe3e29f9f0d0cb5d53e52eceac46034d3c4f8532",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.9/d8bd38bd55a2232abe730b2dbe3e29f9f0d0cb5d53e52eceac46034d3c4f8532.bin"
   },
   {
    "path": "pack/maps",
@@ -2403,10 +2403,10 @@
   },
   {
    "path": "pack/root",
-   "size": 17941912,
-   "crc32": 2464594642,
-   "sha256": "ef1b179a81ae5ab775a09018c04391d2a3185636dbc443d13c2af13d106906ec",
-   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.7/ef1b179a81ae5ab775a09018c04391d2a3185636dbc443d13c2af13d106906ec.bin"
+   "size": 17943843,
+   "crc32": 3140986656,
+   "sha256": "05b5839f3ae3ac839c2a6494644dd519e8b69c916fab3962f6cfb600cbeed806",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.9/05b5839f3ae3ac839c2a6494644dd519e8b69c916fab3962f6cfb600cbeed806.bin"
   },
   {
    "path": "pack/saryong_chapter2",
