@@ -1,0 +1,2721 @@
+{
+ "version": "1.0.7",
+ "base_url": "",
+ "dirs": [
+  "D3D12",
+  "Data",
+  "Data/UserData",
+  "Data/UserData/autochat",
+  "Data/UserData/messenger",
+  "Data/UserData/whisper",
+  "Data/sound",
+  "bgm",
+  "lib",
+  "lib/encodings",
+  "locales",
+  "mark",
+  "pack",
+  "shop",
+  "source",
+  "source/RenderCore",
+  "source/RenderCore/Shaders",
+  "syserr"
+ ],
+ "files": [
+  {
+   "path": "bgm/a_rhapsody_of_war.mp3",
+   "size": 5529185,
+   "crc32": 416981483,
+   "sha256": "cc3521460d96f81d045a6e3fbc341e3004e21f7540718ef5a3e4edce27d3608f",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/cc3521460d96f81d045a6e3fbc341e3004e21f7540718ef5a3e4edce27d3608f.bin"
+  },
+  {
+   "path": "bgm/another_way.mp3",
+   "size": 3500084,
+   "crc32": 3130064263,
+   "sha256": "71c39bde863f3072910046151e0e1e9a7dccdf2a5c32dd157085e5b94017f108",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/71c39bde863f3072910046151e0e1e9a7dccdf2a5c32dd157085e5b94017f108.bin"
+  },
+  {
+   "path": "bgm/back_to_back.mp3",
+   "size": 2274014,
+   "crc32": 3163657044,
+   "sha256": "d97cf5df0c376704a5e7615d351b25370e4bcac4ee13cc3bb3bb8fe878e5c6a3",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/d97cf5df0c376704a5e7615d351b25370e4bcac4ee13cc3bb3bb8fe878e5c6a3.bin"
+  },
+  {
+   "path": "bgm/blacksea.mp3",
+   "size": 7010941,
+   "crc32": 61694210,
+   "sha256": "15a196849197cb5d8b9fb0e7eab0c4657cf4675c7ba65556f3448a8eb1254782",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/15a196849197cb5d8b9fb0e7eab0c4657cf4675c7ba65556f3448a8eb1254782.bin"
+  },
+  {
+   "path": "bgm/catacomb_of_devil.mp3",
+   "size": 3388394,
+   "crc32": 1443014856,
+   "sha256": "03b5f19de134b8702e41fbdb17af6e7b3908ec18c84e5eda72576bfc6af803af",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/03b5f19de134b8702e41fbdb17af6e7b3908ec18c84e5eda72576bfc6af803af.bin"
+  },
+  {
+   "path": "bgm/characterselect.mp3",
+   "size": 481071,
+   "crc32": 2615247863,
+   "sha256": "f1709f694320d162481cb6e6e72206099c174021f184ac4b89a54277cde150c6",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/f1709f694320d162481cb6e6e72206099c174021f184ac4b89a54277cde150c6.bin"
+  },
+  {
+   "path": "bgm/City1.mp3",
+   "size": 5999314,
+   "crc32": 2602823123,
+   "sha256": "69497fa7eaa866bec926fe0cfa2d747e4c38bbc95a49c920f7f18b830f69bbff",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.4/69497fa7eaa866bec926fe0cfa2d747e4c38bbc95a49c920f7f18b830f69bbff.bin"
+  },
+  {
+   "path": "bgm/death_of_landmark.mp3",
+   "size": 3839779,
+   "crc32": 1276379860,
+   "sha256": "10568b068d180687a7425e3fd4f1a3f06e90a3e4e7b3ea7e49aeb9e34e0e3161",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/10568b068d180687a7425e3fd4f1a3f06e90a3e4e7b3ea7e49aeb9e34e0e3161.bin"
+  },
+  {
+   "path": "bgm/desert.mp3",
+   "size": 3788698,
+   "crc32": 4117517267,
+   "sha256": "d7bb2a5823a80e79ed183f1abe0314ced4c522b2c04734af1676d6ce06c6959c",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/d7bb2a5823a80e79ed183f1abe0314ced4c522b2c04734af1676d6ce06c6959c.bin"
+  },
+  {
+   "path": "bgm/dungeon_fire.mp3",
+   "size": 4206772,
+   "crc32": 143969301,
+   "sha256": "202b14d12237b76efb80aaf05bbe18fa7f3047e7fad0befdd3c757bdcb8a2f13",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/202b14d12237b76efb80aaf05bbe18fa7f3047e7fad0befdd3c757bdcb8a2f13.bin"
+  },
+  {
+   "path": "bgm/enter_the_east.mp3",
+   "size": 3289237,
+   "crc32": 3821047222,
+   "sha256": "3b7a6ae71215fb405d41e231fa0b6245c0251c871b385b6c4d5931713441bf74",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/3b7a6ae71215fb405d41e231fa0b6245c0251c871b385b6c4d5931713441bf74.bin"
+  },
+  {
+   "path": "bgm/follow_war_god.mp3",
+   "size": 4960760,
+   "crc32": 4225349393,
+   "sha256": "3e28049ee9c02ba32562deae22c63aa70d107665af15edcbd8e6eb3a90dc66d9",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/3e28049ee9c02ba32562deae22c63aa70d107665af15edcbd8e6eb3a90dc66d9.bin"
+  },
+  {
+   "path": "bgm/last-war2.mp3",
+   "size": 2516430,
+   "crc32": 3838842844,
+   "sha256": "ffda972ae191c5ae3c437bdd13abb47ada94277c3355377c7aeb8ac5fed98b2f",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ffda972ae191c5ae3c437bdd13abb47ada94277c3355377c7aeb8ac5fed98b2f.bin"
+  },
+  {
+   "path": "bgm/Login.mp3",
+   "size": 3259035,
+   "crc32": 213695575,
+   "sha256": "0005b7366664d4bd11fbab996a041c33f38dacf78704e68ab34841076472a0f9",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.4/0005b7366664d4bd11fbab996a041c33f38dacf78704e68ab34841076472a0f9.bin"
+  },
+  {
+   "path": "bgm/login_window.mp3",
+   "size": 307617,
+   "crc32": 3583470313,
+   "sha256": "4c8d3899cddb2cfb876a619311a5fe19f1d7b6bcbe93a02a7e6299e144560be7",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/4c8d3899cddb2cfb876a619311a5fe19f1d7b6bcbe93a02a7e6299e144560be7.bin"
+  },
+  {
+   "path": "bgm/lost_my_name.mp3",
+   "size": 2235562,
+   "crc32": 580403437,
+   "sha256": "6b1d4948bd95decd3d3f378a96bc03d13be62a051cc2f6092c9308029a3745a5",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/6b1d4948bd95decd3d3f378a96bc03d13be62a051cc2f6092c9308029a3745a5.bin"
+  },
+  {
+   "path": "bgm/m2bg.mp3",
+   "size": 3793815,
+   "crc32": 3348546408,
+   "sha256": "aa81cced52c34a004f7b012d276ba6866f2cb6a381a66ac07d7fec5545ebda96",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/aa81cced52c34a004f7b012d276ba6866f2cb6a381a66ac07d7fec5545ebda96.bin"
+  },
+  {
+   "path": "bgm/misty_forest.mp3",
+   "size": 4763992,
+   "crc32": 2878245033,
+   "sha256": "193a67b2ac9007d0f57a3ad6f1d7200ee4ba2b182c6949cd155762a4a418e512",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/193a67b2ac9007d0f57a3ad6f1d7200ee4ba2b182c6949cd155762a4a418e512.bin"
+  },
+  {
+   "path": "bgm/monkey_temple.mp3",
+   "size": 3960321,
+   "crc32": 2064171429,
+   "sha256": "86776c3846570cfaaebd6b33f493c3971ee7e3098b68bb9714238526fef42fed",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/86776c3846570cfaaebd6b33f493c3971ee7e3098b68bb9714238526fef42fed.bin"
+  },
+  {
+   "path": "bgm/mountain_of_death.mp3",
+   "size": 2552965,
+   "crc32": 3385440958,
+   "sha256": "1d117ca3b1996e4e258d8c07c8fb67c39ae87efffb994e659e557bd311d54a6c",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/1d117ca3b1996e4e258d8c07c8fb67c39ae87efffb994e659e557bd311d54a6c.bin"
+  },
+  {
+   "path": "bgm/mt.mp3",
+   "size": 7105609,
+   "crc32": 3421265928,
+   "sha256": "2937b649fe95c517667a0d2111962191f465ed43dd79ebbf65921a667de1627a",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/2937b649fe95c517667a0d2111962191f465ed43dd79ebbf65921a667de1627a.bin"
+  },
+  {
+   "path": "bgm/Only_my_battle.mp3",
+   "size": 2396581,
+   "crc32": 1012992260,
+   "sha256": "ed8834ac52d79b6907ec99862891d9aefaf75a9906b06e3d2f4d1b14cf8c4386",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ed8834ac52d79b6907ec99862891d9aefaf75a9906b06e3d2f4d1b14cf8c4386.bin"
+  },
+  {
+   "path": "bgm/open_the_gate.mp3",
+   "size": 2831572,
+   "crc32": 790659287,
+   "sha256": "af4eb2d9c4d0dd66a7d8d1b926ce2c45d2275618d3e58d1ab7fb60c43f979322",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/af4eb2d9c4d0dd66a7d8d1b926ce2c45d2275618d3e58d1ab7fb60c43f979322.bin"
+  },
+  {
+   "path": "bgm/save_me.mp3",
+   "size": 3040133,
+   "crc32": 2121180574,
+   "sha256": "f02e29e116a6573062b418613f0d81f9cb1aa8d5847f4ca7707dc2024395e6ad",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/f02e29e116a6573062b418613f0d81f9cb1aa8d5847f4ca7707dc2024395e6ad.bin"
+  },
+  {
+   "path": "bgm/shadow_dungeon.mp3",
+   "size": 7555703,
+   "crc32": 3168959737,
+   "sha256": "be2a374f7fab36d1774f7e24a53f125251d8f2a21e795504c178626adcc27dfe",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/be2a374f7fab36d1774f7e24a53f125251d8f2a21e795504c178626adcc27dfe.bin"
+  },
+  {
+   "path": "bgm/wedding.mp3",
+   "size": 962458,
+   "crc32": 3915648720,
+   "sha256": "a1ba70563a2d10099e43fd65882727d8c438985d838483c3318a5a826b887841",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/a1ba70563a2d10099e43fd65882727d8c438985d838483c3318a5a826b887841.bin"
+  },
+  {
+   "path": "bgm/wonderland.mp3",
+   "size": 4128917,
+   "crc32": 1442166560,
+   "sha256": "de6bee7f556d9c3b9a4989197153c59d7ed5ee015b8e905fec828fc5201fb6b6",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/de6bee7f556d9c3b9a4989197153c59d7ed5ee015b8e905fec828fc5201fb6b6.bin"
+  },
+  {
+   "path": "bgm/xmas.mp3",
+   "size": 1071229,
+   "crc32": 999124532,
+   "sha256": "550633a9aecaa6eba7ec0f8200426482fe768fbb8985e242ec9ab4ae58000b66",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/550633a9aecaa6eba7ec0f8200426482fe768fbb8985e242ec9ab4ae58000b66.bin"
+  },
+  {
+   "path": "CEF-CREDITS.html",
+   "size": 20031003,
+   "crc32": 1249476974,
+   "sha256": "54b73461cd6e06975bbd512726029c5140e3a54053bf307240190254e2d25447",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/54b73461cd6e06975bbd512726029c5140e3a54053bf307240190254e2d25447.bin"
+  },
+  {
+   "path": "CEF-LICENSE.txt",
+   "size": 1691,
+   "crc32": 3826905662,
+   "sha256": "2e69c36a7eaa4fa153426eab635c607ea0356cbc7a68a70f42a49e8ab8eb8106",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/2e69c36a7eaa4fa153426eab635c607ea0356cbc7a68a70f42a49e8ab8eb8106.bin"
+  },
+  {
+   "path": "channel.inf",
+   "size": 5,
+   "crc32": 1822773948,
+   "sha256": "b8d40bd75b3d39e965bd6bd5704d5453892ed155b447746ce4758e1f9aefda77",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/b8d40bd75b3d39e965bd6bd5704d5453892ed155b447746ce4758e1f9aefda77.bin",
+   "keep": true
+  },
+  {
+   "path": "chrome_100_percent.pak",
+   "size": 727214,
+   "crc32": 1684871549,
+   "sha256": "53465352b3b8f4426c573a5aa2c115ab611d4413c341241370d5be86f368135d",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/53465352b3b8f4426c573a5aa2c115ab611d4413c341241370d5be86f368135d.bin"
+  },
+  {
+   "path": "chrome_200_percent.pak",
+   "size": 1228793,
+   "crc32": 1591228712,
+   "sha256": "1df08d68bbe8a9f4f4cb2d6663930019b9d0276c43f630128c2bb052cadcc31f",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/1df08d68bbe8a9f4f4cb2d6663930019b9d0276c43f630128c2bb052cadcc31f.bin"
+  },
+  {
+   "path": "chrome_elf.dll",
+   "size": 2792448,
+   "crc32": 3881210359,
+   "sha256": "8162f122b33b6f8dbc94ae9f3728c8371e3aa4c7005edb866f7652efa6371e56",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/8162f122b33b6f8dbc94ae9f3728c8371e3aa4c7005edb866f7652efa6371e56.bin"
+  },
+  {
+   "path": "config.exe",
+   "size": 2064824,
+   "crc32": 260759038,
+   "sha256": "b77902598bdeefc623700ad759f9173d15fb5a0b75adc4af4f33d759df4dd4c1",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/b77902598bdeefc623700ad759f9173d15fb5a0b75adc4af4f33d759df4dd4c1.bin"
+  },
+  {
+   "path": "config.ini",
+   "size": 5708,
+   "crc32": 1059142038,
+   "sha256": "55f6521209c6102b4b6b62c3b707aa23840746f4f9ae941f99a11c36efb0b7e4",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/55f6521209c6102b4b6b62c3b707aa23840746f4f9ae941f99a11c36efb0b7e4.bin",
+   "keep": true
+  },
+  {
+   "path": "D3D12/D3D12Core.dll",
+   "size": 5035320,
+   "crc32": 1026814552,
+   "sha256": "37fa14281a58cc834076971873006feb8a8d25cddc908d1a345bda1b149ffc7d",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/37fa14281a58cc834076971873006feb8a8d25cddc908d1a345bda1b149ffc7d.bin"
+  },
+  {
+   "path": "D3DCompiler_43.dll",
+   "size": 2526056,
+   "crc32": 226317706,
+   "sha256": "44c3a7e330b54a35a9efa015831392593aa02e7da1460be429d17c3644850e8a",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/44c3a7e330b54a35a9efa015831392593aa02e7da1460be429d17c3644850e8a.bin"
+  },
+  {
+   "path": "d3dcompiler_47.dll",
+   "size": 4741488,
+   "crc32": 2161248377,
+   "sha256": "a05f99734f7c4822fefc12b367af21fd0976ed6608752fb1e1e80b6ece7ecbbb",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/a05f99734f7c4822fefc12b367af21fd0976ed6608752fb1e1e80b6ece7ecbbb.bin"
+  },
+  {
+   "path": "d3dx9_43.dll",
+   "size": 2401112,
+   "crc32": 898964453,
+   "sha256": "84b900dbd7fa978d6e0caee26fc54f2f61d92c9c75d10b35f00e3e82cd1d67b4",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/84b900dbd7fa978d6e0caee26fc54f2f61d92c9c75d10b35f00e3e82cd1d67b4.bin"
+  },
+  {
+   "path": "Data/sound/blizzard.mp3",
+   "size": 592091,
+   "crc32": 3737540068,
+   "sha256": "92fd35e7119dae607c4aafcac0605dc3406433f160ec1ce63f636f84db4c936f",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/92fd35e7119dae607c4aafcac0605dc3406433f160ec1ce63f636f84db4c936f.bin"
+  },
+  {
+   "path": "Data/sound/rain.mp3",
+   "size": 3306224,
+   "crc32": 3841084758,
+   "sha256": "a549acced050a10a8c7460b802a4834ea9a470fff897b4a8f3e2a9c197bcf8f1",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/a549acced050a10a8c7460b802a4834ea9a470fff897b4a8f3e2a9c197bcf8f1.bin"
+  },
+  {
+   "path": "Data/sound/rain_light.mp3",
+   "size": 6612336,
+   "crc32": 669712598,
+   "sha256": "7705252d34d48f8c59d0b5e893640c31eccae96915cad5b6d2c5096cd2cd218d",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/7705252d34d48f8c59d0b5e893640c31eccae96915cad5b6d2c5096cd2cd218d.bin"
+  },
+  {
+   "path": "Data/sound/thunder1.mp3",
+   "size": 519660,
+   "crc32": 1763360426,
+   "sha256": "d3e4226efe136079371fe3e747a3a5e4df8c64fbe49ff0579f2621d8db6a4100",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/d3e4226efe136079371fe3e747a3a5e4df8c64fbe49ff0579f2621d8db6a4100.bin"
+  },
+  {
+   "path": "Data/sound/underwater.mp3",
+   "size": 517192,
+   "crc32": 3284592230,
+   "sha256": "889bb99b2490e6596ff430f459cdd5fe8962b82de8821a82dc3bc2d9383c509e",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/889bb99b2490e6596ff430f459cdd5fe8962b82de8821a82dc3bc2d9383c509e.bin"
+  },
+  {
+   "path": "Data/sound/waterOut.mp3",
+   "size": 21942,
+   "crc32": 2290143323,
+   "sha256": "59fcbfff692ef38257c400d50b547b680dfcf53723504ae13e2b93cc4538ac5d",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/59fcbfff692ef38257c400d50b547b680dfcf53723504ae13e2b93cc4538ac5d.bin"
+  },
+  {
+   "path": "Data/sound/waterSubmerge.mp3",
+   "size": 40269,
+   "crc32": 249202940,
+   "sha256": "b7c6e30040e8fadfb424eef7a09b40c3b8e13e747a55a029ec1932b0a4e3c7ef",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/b7c6e30040e8fadfb424eef7a09b40c3b8e13e747a55a029ec1932b0a4e3c7ef.bin"
+  },
+  {
+   "path": "devil.dll",
+   "size": 370176,
+   "crc32": 489945799,
+   "sha256": "8c075aae3332195951b1a9b674551e05dae51eeb059a68ac27d3833cda5b2fad",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/8c075aae3332195951b1a9b674551e05dae51eeb059a68ac27d3833cda5b2fad.bin"
+  },
+  {
+   "path": "dxcompiler.dll",
+   "size": 28079968,
+   "crc32": 1450349904,
+   "sha256": "9a5100511e127c6a2fc78edf984f95074a76d35b90c90c4d342430a5ae160e9b",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/9a5100511e127c6a2fc78edf984f95074a76d35b90c90c4d342430a5ae160e9b.bin"
+  },
+  {
+   "path": "dxil.dll",
+   "size": 3831600,
+   "crc32": 1063515259,
+   "sha256": "feb57253eff0a622561e29b44cedbe86b89fc9a5bc8dc00fa2f98fafd712c2d8",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/feb57253eff0a622561e29b44cedbe86b89fc9a5bc8dc00fa2f98fafd712c2d8.bin"
+  },
+  {
+   "path": "eventhud.cfg",
+   "size": 10,
+   "crc32": 3958143377,
+   "sha256": "08101eb77e1e00ebccbaa4921b4b2294672403be71ac970ff0bc57b19b3ee6be",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/08101eb77e1e00ebccbaa4921b4b2294672403be71ac970ff0bc57b19b3ee6be.bin",
+   "keep": true
+  },
+  {
+   "path": "icudtl.dat",
+   "size": 10876560,
+   "crc32": 2815651536,
+   "sha256": "bd8c145abdf3f8383276ce01dfa4ae48709bef9fef1c0711eb7c3fab4f6eb7c2",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/bd8c145abdf3f8383276ce01dfa4ae48709bef9fef1c0711eb7c3fab4f6eb7c2.bin"
+  },
+  {
+   "path": "launcher.ini",
+   "size": 1890,
+   "crc32": 1818624637,
+   "sha256": "d2c93af384f942ec4a9b47ee2fcc9a86cdc83cbc18ad443310ef004755f319b1",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/d2c93af384f942ec4a9b47ee2fcc9a86cdc83cbc18ad443310ef004755f319b1.bin"
+  },
+  {
+   "path": "lib/__future__.pyc",
+   "size": 4431,
+   "crc32": 2857792867,
+   "sha256": "3042473d866df8f8a2d884614cbf62229ef8d67bde5803a8241399dc9c4f7f70",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/3042473d866df8f8a2d884614cbf62229ef8d67bde5803a8241399dc9c4f7f70.bin"
+  },
+  {
+   "path": "lib/_abcoll.pyc",
+   "size": 22339,
+   "crc32": 2365844594,
+   "sha256": "52202d64fa5ad3ca2588f2f6eb0cc4718ebc35cf0dd7eda7025a1e0af6b6c9b6",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/52202d64fa5ad3ca2588f2f6eb0cc4718ebc35cf0dd7eda7025a1e0af6b6c9b6.bin"
+  },
+  {
+   "path": "lib/_locale.pyc",
+   "size": 49841,
+   "crc32": 4114662314,
+   "sha256": "5f0061c4b8137e4ba0c5188b07043a4b792697c392f5fdf92d39e7cef09b0525",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/5f0061c4b8137e4ba0c5188b07043a4b792697c392f5fdf92d39e7cef09b0525.bin"
+  },
+  {
+   "path": "lib/_weakrefset.pyc",
+   "size": 10490,
+   "crc32": 1576811346,
+   "sha256": "86734cbf0b8b5bafc91005986dfedf89fe7815695d232eeef6701610d836e5e9",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/86734cbf0b8b5bafc91005986dfedf89fe7815695d232eeef6701610d836e5e9.bin"
+  },
+  {
+   "path": "lib/abc.pyc",
+   "size": 6187,
+   "crc32": 3834771731,
+   "sha256": "5a9222e86eb3d42fee6cd92079c8ae65fed2d5477c08a709e49be292e47e342a",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/5a9222e86eb3d42fee6cd92079c8ae65fed2d5477c08a709e49be292e47e342a.bin"
+  },
+  {
+   "path": "lib/base64.pyc",
+   "size": 10582,
+   "crc32": 1240909691,
+   "sha256": "b943737ba2feb5f6e075c5eb3e3a367b8988f3857eaee0f93940fa3562b78cb7",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/b943737ba2feb5f6e075c5eb3e3a367b8988f3857eaee0f93940fa3562b78cb7.bin"
+  },
+  {
+   "path": "lib/bisect.pyc",
+   "size": 3236,
+   "crc32": 3116899751,
+   "sha256": "bc27e120a3049637fdaba8f79386e68190730920ea74048a876447689641660b",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/bc27e120a3049637fdaba8f79386e68190730920ea74048a876447689641660b.bin"
+  },
+  {
+   "path": "lib/calendar.pyc",
+   "size": 26442,
+   "crc32": 1526719575,
+   "sha256": "f90469027a62cc73ae08fccf7a936095425f4426cc085ce6ad2e27611bb24c0e",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/f90469027a62cc73ae08fccf7a936095425f4426cc085ce6ad2e27611bb24c0e.bin"
+  },
+  {
+   "path": "lib/codecs.pyc",
+   "size": 36978,
+   "crc32": 2928014693,
+   "sha256": "d57bf1e54615eb64afd6e0a453ae7b9a251a16f941f240cff74d5e174f690d30",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/d57bf1e54615eb64afd6e0a453ae7b9a251a16f941f240cff74d5e174f690d30.bin"
+  },
+  {
+   "path": "lib/collections.pyc",
+   "size": 26172,
+   "crc32": 385366131,
+   "sha256": "2c8211455f593dc07ceb30e3fc3c445b4b18dae517ee089b9e27997b315f8ab4",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/2c8211455f593dc07ceb30e3fc3c445b4b18dae517ee089b9e27997b315f8ab4.bin"
+  },
+  {
+   "path": "lib/copy.pyc",
+   "size": 13208,
+   "crc32": 1091298715,
+   "sha256": "e35e587a99f460fd698ec01fbf957d785019070d410bbf2847de2641e7a543a4",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/e35e587a99f460fd698ec01fbf957d785019070d410bbf2847de2641e7a543a4.bin"
+  },
+  {
+   "path": "lib/copy_reg.pyc",
+   "size": 5157,
+   "crc32": 536292604,
+   "sha256": "0bf42005c64708f6c8102b56b08ba112278224869223f38fa9954bbd04827728",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/0bf42005c64708f6c8102b56b08ba112278224869223f38fa9954bbd04827728.bin"
+  },
+  {
+   "path": "lib/emoji.cfg",
+   "size": 36,
+   "crc32": 1790358229,
+   "sha256": "6db65fd59fd356f6729140571b5bcd6bb3b83492a16e1bf0a3884442fc3c8a0e",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/6db65fd59fd356f6729140571b5bcd6bb3b83492a16e1bf0a3884442fc3c8a0e.bin"
+  },
+  {
+   "path": "lib/encodings/__init__.pyc",
+   "size": 4510,
+   "crc32": 2926961588,
+   "sha256": "a50a767f3f1c400558e09890cfc225bdd4360d771b50efad559127dad3f7b87e",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/a50a767f3f1c400558e09890cfc225bdd4360d771b50efad559127dad3f7b87e.bin"
+  },
+  {
+   "path": "lib/encodings/aliases.pyc",
+   "size": 8803,
+   "crc32": 3888310600,
+   "sha256": "63f58fc37fc6e1b9634aa743fde9da8d9e92f05dc4fe57252840b4f49f164140",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/63f58fc37fc6e1b9634aa743fde9da8d9e92f05dc4fe57252840b4f49f164140.bin"
+  },
+  {
+   "path": "lib/encodings/cp1250.pyc",
+   "size": 2665,
+   "crc32": 406540303,
+   "sha256": "4f24b9f661acdda96e7446f37d91177e69261b9ed95556f4bfb19220fe9dd20e",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/4f24b9f661acdda96e7446f37d91177e69261b9ed95556f4bfb19220fe9dd20e.bin"
+  },
+  {
+   "path": "lib/encodings/cp1251.pyc",
+   "size": 2662,
+   "crc32": 915445359,
+   "sha256": "6f38622c8f58f90f354a5adfe0487e83a94be760ec183ea181625b9c38d243c6",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/6f38622c8f58f90f354a5adfe0487e83a94be760ec183ea181625b9c38d243c6.bin"
+  },
+  {
+   "path": "lib/encodings/cp1252.pyc",
+   "size": 2665,
+   "crc32": 904755362,
+   "sha256": "9881bfc2a73017bee75a5a2a97c78c5041e7a25628bc2bc321bbe95960c73f23",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/9881bfc2a73017bee75a5a2a97c78c5041e7a25628bc2bc321bbe95960c73f23.bin"
+  },
+  {
+   "path": "lib/encodings/cp1253.pyc",
+   "size": 2678,
+   "crc32": 3441321026,
+   "sha256": "75426d33e3d7b0fd2252ede2cfdccf902e764f854a4bea97b71307d8c9722c85",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/75426d33e3d7b0fd2252ede2cfdccf902e764f854a4bea97b71307d8c9722c85.bin"
+  },
+  {
+   "path": "lib/encodings/cp1254.pyc",
+   "size": 2667,
+   "crc32": 2672585505,
+   "sha256": "e709d816b056ff21662db797ddb29defbf9af2154dc62da8d1bc21eb8a80dafc",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/e709d816b056ff21662db797ddb29defbf9af2154dc62da8d1bc21eb8a80dafc.bin"
+  },
+  {
+   "path": "lib/encodings/cp1255.pyc",
+   "size": 2686,
+   "crc32": 198290189,
+   "sha256": "e2ccbe8346d0dc58fc351e0d55a8ad3f7965a5ac7435d69939d60fc40ede4d6a",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/e2ccbe8346d0dc58fc351e0d55a8ad3f7965a5ac7435d69939d60fc40ede4d6a.bin"
+  },
+  {
+   "path": "lib/encodings/cp1256.pyc",
+   "size": 2664,
+   "crc32": 3334642422,
+   "sha256": "7effaf1f11e0adde81c2dd96650e2e75d2183c3f165e148d1f3dd5e00688e4b1",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/7effaf1f11e0adde81c2dd96650e2e75d2183c3f165e148d1f3dd5e00688e4b1.bin"
+  },
+  {
+   "path": "lib/encodings/cp1257.pyc",
+   "size": 2672,
+   "crc32": 1599975229,
+   "sha256": "e6ebdab547da3b75da03a93bb3a95fff3c8f11b365730a3955c2fea240495f61",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/e6ebdab547da3b75da03a93bb3a95fff3c8f11b365730a3955c2fea240495f61.bin"
+  },
+  {
+   "path": "lib/encodings/cp1258.pyc",
+   "size": 2670,
+   "crc32": 1388778367,
+   "sha256": "30d4097869151cd7828b62cd1e4935f2f2f3b34e31b57933f59598ae59fa7ed1",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/30d4097869151cd7828b62cd1e4935f2f2f3b34e31b57933f59598ae59fa7ed1.bin"
+  },
+  {
+   "path": "lib/encodings/cp874.pyc",
+   "size": 2756,
+   "crc32": 1033254361,
+   "sha256": "3b498be8ba9ca9eb365766ed928c4acee798c76e8e6f35232f8d173a599f5bb5",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/3b498be8ba9ca9eb365766ed928c4acee798c76e8e6f35232f8d173a599f5bb5.bin"
+  },
+  {
+   "path": "lib/encodings/cp949.pyc",
+   "size": 2009,
+   "crc32": 1824094431,
+   "sha256": "23a92d47e74512b4d30da65bd411e58deb93c3199959906f58f4253147dd1e19",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/23a92d47e74512b4d30da65bd411e58deb93c3199959906f58f4253147dd1e19.bin"
+  },
+  {
+   "path": "lib/encodings/utf_8.pyc",
+   "size": 1798,
+   "crc32": 16009408,
+   "sha256": "a709834ac9c82f236afdaff27db74542af2a6042d926473f0b3695416a7c1f5d",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/a709834ac9c82f236afdaff27db74542af2a6042d926473f0b3695416a7c1f5d.bin"
+  },
+  {
+   "path": "lib/fnmatch.pyc",
+   "size": 3732,
+   "crc32": 4270526278,
+   "sha256": "bcd17f74056999ce3778af4a36a89ccf70903437871ee02870dfb22357c4ce51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/bcd17f74056999ce3778af4a36a89ccf70903437871ee02870dfb22357c4ce51.bin"
+  },
+  {
+   "path": "lib/functools.pyc",
+   "size": 6193,
+   "crc32": 3257285433,
+   "sha256": "74e249768618e0aabed2e92d54517cd3e414a9aa3df031e5170fa4b612bdc688",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/74e249768618e0aabed2e92d54517cd3e414a9aa3df031e5170fa4b612bdc688.bin"
+  },
+  {
+   "path": "lib/genericpath.pyc",
+   "size": 3303,
+   "crc32": 1652596334,
+   "sha256": "70f7caa900f4ec3c74881bb9312b02cb0c5c56d80c521a64fbf7a42699dbd5e2",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/70f7caa900f4ec3c74881bb9312b02cb0c5c56d80c521a64fbf7a42699dbd5e2.bin"
+  },
+  {
+   "path": "lib/heapq.pyc",
+   "size": 13896,
+   "crc32": 2948659214,
+   "sha256": "de60dcff2c97c2bfeb86c39bb97fbbd536bb4245a8bb5739935d16e9b8f53952",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/de60dcff2c97c2bfeb86c39bb97fbbd536bb4245a8bb5739935d16e9b8f53952.bin"
+  },
+  {
+   "path": "lib/inouttime_track",
+   "size": 8013,
+   "crc32": 2518896841,
+   "sha256": "049cccf6a2262e37ea93e546d899026eb058a789bbf5ae7e3cc0c1527a5f5b15",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/049cccf6a2262e37ea93e546d899026eb058a789bbf5ae7e3cc0c1527a5f5b15.bin"
+  },
+  {
+   "path": "lib/keyword.pyc",
+   "size": 2169,
+   "crc32": 2178546341,
+   "sha256": "dac545d280b1cc7240e4327c4a5febd2bc4886b9c09d5640eeebda12ec5cfe68",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/dac545d280b1cc7240e4327c4a5febd2bc4886b9c09d5640eeebda12ec5cfe68.bin"
+  },
+  {
+   "path": "lib/linecache.pyc",
+   "size": 3235,
+   "crc32": 4048207604,
+   "sha256": "db7deed3bb26597dbd751fba0cb1880406a9bac8b31b3505c652a03e37b46cde",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/db7deed3bb26597dbd751fba0cb1880406a9bac8b31b3505c652a03e37b46cde.bin"
+  },
+  {
+   "path": "lib/locale.pyc",
+   "size": 49841,
+   "crc32": 4114662314,
+   "sha256": "5f0061c4b8137e4ba0c5188b07043a4b792697c392f5fdf92d39e7cef09b0525",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/5f0061c4b8137e4ba0c5188b07043a4b792697c392f5fdf92d39e7cef09b0525.bin"
+  },
+  {
+   "path": "lib/ntpath.pyc",
+   "size": 11961,
+   "crc32": 2765879465,
+   "sha256": "c6a17056ee50bd7763a408ac5231bdea137d49ce0794249b267f9b865bb3a49a",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/c6a17056ee50bd7763a408ac5231bdea137d49ce0794249b267f9b865bb3a49a.bin"
+  },
+  {
+   "path": "lib/os.pyc",
+   "size": 25769,
+   "crc32": 911432770,
+   "sha256": "8476ae5c786abdd821880b0cb92d1a98828becb15a3c44deca07f7a402d9de20",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/8476ae5c786abdd821880b0cb92d1a98828becb15a3c44deca07f7a402d9de20.bin"
+  },
+  {
+   "path": "lib/random.pyc",
+   "size": 28935,
+   "crc32": 986061,
+   "sha256": "8a05989ebaa9804ab3105439f633c26b95b0fe815374a50f9d67ae6f2930760b",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/8a05989ebaa9804ab3105439f633c26b95b0fe815374a50f9d67ae6f2930760b.bin"
+  },
+  {
+   "path": "lib/re.pyc",
+   "size": 13178,
+   "crc32": 1671609387,
+   "sha256": "0dfa9fd2ef9aebab90e52afe651f0a8e2947e121174d630b71401257dcd70e7c",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/0dfa9fd2ef9aebab90e52afe651f0a8e2947e121174d630b71401257dcd70e7c.bin"
+  },
+  {
+   "path": "lib/shutil.pyc",
+   "size": 19273,
+   "crc32": 1873281015,
+   "sha256": "aee752b24888081d26e841b5b1a51a55b7936d66fba630349dd5193e47a1c7ba",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/aee752b24888081d26e841b5b1a51a55b7936d66fba630349dd5193e47a1c7ba.bin"
+  },
+  {
+   "path": "lib/site.pyc",
+   "size": 20019,
+   "crc32": 3897044925,
+   "sha256": "9aef6afc0ea46dd1be852b364ce9421d25c16ed494e9d6b0ca69910fedfdbafb",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/9aef6afc0ea46dd1be852b364ce9421d25c16ed494e9d6b0ca69910fedfdbafb.bin"
+  },
+  {
+   "path": "lib/sre_compile.pyc",
+   "size": 11107,
+   "crc32": 1620746411,
+   "sha256": "1fb2101b40275943386cf985955f265043053053e7c0f0a0448c3210fa8d1206",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/1fb2101b40275943386cf985955f265043053053e7c0f0a0448c3210fa8d1206.bin"
+  },
+  {
+   "path": "lib/sre_constants.pyc",
+   "size": 6108,
+   "crc32": 3900811275,
+   "sha256": "99e350e7e2816e443e7b190849f06ce72d4af41a47b81336427483e7d1f2db0e",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/99e350e7e2816e443e7b190849f06ce72d4af41a47b81336427483e7d1f2db0e.bin"
+  },
+  {
+   "path": "lib/sre_parse.pyc",
+   "size": 19244,
+   "crc32": 1459430047,
+   "sha256": "511693341644e9ae8f7fa0047419eeff95fbfc8d5189bc25758e66d4e6553ba8",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/511693341644e9ae8f7fa0047419eeff95fbfc8d5189bc25758e66d4e6553ba8.bin"
+  },
+  {
+   "path": "lib/stat.pyc",
+   "size": 2791,
+   "crc32": 1375966108,
+   "sha256": "dd65249b3d3c27cebc8e23a1aa7ad552f1b4ae45261513aafc1bd10113484406",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/dd65249b3d3c27cebc8e23a1aa7ad552f1b4ae45261513aafc1bd10113484406.bin"
+  },
+  {
+   "path": "lib/string.pyc",
+   "size": 19656,
+   "crc32": 1066063587,
+   "sha256": "d51d56275ba868e5c612c96e6d1eb1e9d48301551d553699efb13ba2c661c1ec",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/d51d56275ba868e5c612c96e6d1eb1e9d48301551d553699efb13ba2c661c1ec.bin"
+  },
+  {
+   "path": "lib/struct.pyc",
+   "size": 222,
+   "crc32": 4038890026,
+   "sha256": "473bd949773f5361255818d78d24fbc6ce798fb019b494e119f3c232d8ec4a87",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/473bd949773f5361255818d78d24fbc6ce798fb019b494e119f3c232d8ec4a87.bin"
+  },
+  {
+   "path": "lib/sysconfig.pyc",
+   "size": 17571,
+   "crc32": 1529083148,
+   "sha256": "d9163de4614d607611c089e154290b126ecc2d7ce1c6afc6982ccf173e90ca20",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/d9163de4614d607611c089e154290b126ecc2d7ce1c6afc6982ccf173e90ca20.bin"
+  },
+  {
+   "path": "lib/traceback.pyc",
+   "size": 11703,
+   "crc32": 3768933732,
+   "sha256": "20c67f60a4ed776d6cf8d8a6a62cddb25c7bd09d33a8630ba87db8e558704d5a",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/20c67f60a4ed776d6cf8d8a6a62cddb25c7bd09d33a8630ba87db8e558704d5a.bin"
+  },
+  {
+   "path": "lib/types.pyc",
+   "size": 2530,
+   "crc32": 920695307,
+   "sha256": "6878433abb04cc1954d0fb413a99f65fe8d7569e4ed1dd24826de096930633da",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/6878433abb04cc1954d0fb413a99f65fe8d7569e4ed1dd24826de096930633da.bin"
+  },
+  {
+   "path": "lib/UserDict.pyc",
+   "size": 9000,
+   "crc32": 1431875928,
+   "sha256": "d9c2b0aef0e04730ae42b57c56ad6422df1b33ceb80dbab43722f4819f17bf22",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/d9c2b0aef0e04730ae42b57c56ad6422df1b33ceb80dbab43722f4819f17bf22.bin"
+  },
+  {
+   "path": "lib/warnings.pyc",
+   "size": 13232,
+   "crc32": 3752454002,
+   "sha256": "ebbcbba314027ff6dcf9b046fe7a795f2df258da0538ec968da5710d6eb08988",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ebbcbba314027ff6dcf9b046fe7a795f2df258da0538ec968da5710d6eb08988.bin"
+  },
+  {
+   "path": "lib/weakref.pyc",
+   "size": 16037,
+   "crc32": 2124701469,
+   "sha256": "49529d82159bcdfdbadbd6c4ad5c33996c21eade59f7708072aa6ad8152548a8",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/49529d82159bcdfdbadbd6c4ad5c33996c21eade59f7708072aa6ad8152548a8.bin"
+  },
+  {
+   "path": "libcef.dll",
+   "size": 270510080,
+   "crc32": 1888227233,
+   "sha256": "6679b0802ca046a8cf72e4ee5914cc03ab0f358b84459e4db7ebd7bdd9ec70c5",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/6679b0802ca046a8cf72e4ee5914cc03ab0f358b84459e4db7ebd7bdd9ec70c5.bin"
+  },
+  {
+   "path": "libEGL.dll",
+   "size": 496128,
+   "crc32": 1261448385,
+   "sha256": "6483285593dd1af13a500696808b56fd86ca80b4f8d574c8f084fa39f068f639",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/6483285593dd1af13a500696808b56fd86ca80b4f8d574c8f084fa39f068f639.bin"
+  },
+  {
+   "path": "libGLESv2.dll",
+   "size": 7857664,
+   "crc32": 3573999008,
+   "sha256": "75c5d1e4fef3acb8572f4f141eaf7d402e3262323e13dbb8e3a60466eff7ce7e",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/75c5d1e4fef3acb8572f4f141eaf7d402e3262323e13dbb8e3a60466eff7ce7e.bin"
+  },
+  {
+   "path": "locale.cfg",
+   "size": 7,
+   "crc32": 14821734,
+   "sha256": "c2cd3289a884f520e648ea8c70dcc68ecd82f55728773fc843445bb0e9513a2f",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/c2cd3289a884f520e648ea8c70dcc68ecd82f55728773fc843445bb0e9513a2f.bin",
+   "keep": true
+  },
+  {
+   "path": "locales/af.pak",
+   "size": 649476,
+   "crc32": 4182477588,
+   "sha256": "d03438198f83c07dd700cdfb679ffa78204867495abce784e81e4a2b36cc2b72",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/d03438198f83c07dd700cdfb679ffa78204867495abce784e81e4a2b36cc2b72.bin"
+  },
+  {
+   "path": "locales/af_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/af_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/af_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/am.pak",
+   "size": 1050793,
+   "crc32": 923499906,
+   "sha256": "238eb9acabe1586a987a13931c04096298ea639a75bdf616d14fdf8b2a65d13e",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/238eb9acabe1586a987a13931c04096298ea639a75bdf616d14fdf8b2a65d13e.bin"
+  },
+  {
+   "path": "locales/am_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/am_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/am_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/ar.pak",
+   "size": 1161946,
+   "crc32": 3142447289,
+   "sha256": "37efe732adde97288a417fe72e4cbfd17ecbc80ef2dc3bb258d0a25f62611801",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/37efe732adde97288a417fe72e4cbfd17ecbc80ef2dc3bb258d0a25f62611801.bin"
+  },
+  {
+   "path": "locales/ar_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/ar_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/ar_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/bg.pak",
+   "size": 1201069,
+   "crc32": 542242364,
+   "sha256": "359336c0872f41af9357fba529b90da126e99f18830f62f8c40683a97f4f041c",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/359336c0872f41af9357fba529b90da126e99f18830f62f8c40683a97f4f041c.bin"
+  },
+  {
+   "path": "locales/bg_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/bg_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/bg_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/bn.pak",
+   "size": 1541283,
+   "crc32": 3388623567,
+   "sha256": "996d82caa3fc8723a02786e6f5e3fe5157b48bbc5c0037a9a2ee44f20d043de0",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/996d82caa3fc8723a02786e6f5e3fe5157b48bbc5c0037a9a2ee44f20d043de0.bin"
+  },
+  {
+   "path": "locales/bn_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/bn_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/bn_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/ca.pak",
+   "size": 739209,
+   "crc32": 1364231787,
+   "sha256": "0274b388ff596495ce14a313ab6768230b411255bd625b7dd4b02a343b2d5d18",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/0274b388ff596495ce14a313ab6768230b411255bd625b7dd4b02a343b2d5d18.bin"
+  },
+  {
+   "path": "locales/ca_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/ca_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/ca_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/cs.pak",
+   "size": 757391,
+   "crc32": 3025886887,
+   "sha256": "4ed451d1ee2a802202064e7c248297314601b972e9a77cd712246b5ee23c5dfa",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/4ed451d1ee2a802202064e7c248297314601b972e9a77cd712246b5ee23c5dfa.bin"
+  },
+  {
+   "path": "locales/cs_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/cs_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/cs_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/da.pak",
+   "size": 685466,
+   "crc32": 1242872766,
+   "sha256": "e3a9c3bc93ddb7761ca6fe94345df003268fc1ed8e3443210b3968934f4a7c8f",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/e3a9c3bc93ddb7761ca6fe94345df003268fc1ed8e3443210b3968934f4a7c8f.bin"
+  },
+  {
+   "path": "locales/da_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/da_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/da_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/de.pak",
+   "size": 740913,
+   "crc32": 3157570062,
+   "sha256": "2d2e576ba502df6e6be7479161e670f45ca7fc68dfc40ccb52f077c9655bdc0a",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/2d2e576ba502df6e6be7479161e670f45ca7fc68dfc40ccb52f077c9655bdc0a.bin"
+  },
+  {
+   "path": "locales/de_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/de_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/de_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/el.pak",
+   "size": 1318299,
+   "crc32": 490577431,
+   "sha256": "84779580a9ec4b0c70271746a518cb1bcc6bc5d1c0098c08ebd1bb96dd00a5ef",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/84779580a9ec4b0c70271746a518cb1bcc6bc5d1c0098c08ebd1bb96dd00a5ef.bin"
+  },
+  {
+   "path": "locales/el_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/el_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/el_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/en-GB.pak",
+   "size": 592044,
+   "crc32": 3657655911,
+   "sha256": "0d2596bbde1790e2a4612cba401e1313c80ba27c6941910809c97ec17c073d59",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/0d2596bbde1790e2a4612cba401e1313c80ba27c6941910809c97ec17c073d59.bin"
+  },
+  {
+   "path": "locales/en-GB_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/en-GB_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/en-GB_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/en-US.pak",
+   "size": 598883,
+   "crc32": 3873620244,
+   "sha256": "7e6c06a9af097a1296090bd60b03d189afc8e82b5ae9b8df316d0e968476d1db",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/7e6c06a9af097a1296090bd60b03d189afc8e82b5ae9b8df316d0e968476d1db.bin"
+  },
+  {
+   "path": "locales/en-US_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/en-US_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/en-US_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/es-419.pak",
+   "size": 724918,
+   "crc32": 505120299,
+   "sha256": "373dad3787d32c86a5b0dc9a226394bc28ff7a2675f6f13df205ae4d7035bd86",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/373dad3787d32c86a5b0dc9a226394bc28ff7a2675f6f13df205ae4d7035bd86.bin"
+  },
+  {
+   "path": "locales/es-419_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/es-419_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/es-419_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/es.pak",
+   "size": 719390,
+   "crc32": 697432522,
+   "sha256": "f110e0ec95109d9f4c5cd4304b71eb614e80205139c01b3bcbf3794e6deebd24",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/f110e0ec95109d9f4c5cd4304b71eb614e80205139c01b3bcbf3794e6deebd24.bin"
+  },
+  {
+   "path": "locales/es_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/es_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/es_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/et.pak",
+   "size": 658804,
+   "crc32": 3082126737,
+   "sha256": "f5e56e2a19c1d2d30d516fbadd231008af5689dd3e878f8ecb82b497199dcbce",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/f5e56e2a19c1d2d30d516fbadd231008af5689dd3e878f8ecb82b497199dcbce.bin"
+  },
+  {
+   "path": "locales/et_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/et_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/et_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/fa.pak",
+   "size": 1082041,
+   "crc32": 2728475768,
+   "sha256": "550fc88456cddc94b8c090014033e7148f5ba2c29506f002ffc38dc05c29bc4f",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/550fc88456cddc94b8c090014033e7148f5ba2c29506f002ffc38dc05c29bc4f.bin"
+  },
+  {
+   "path": "locales/fa_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/fa_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/fa_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/fi.pak",
+   "size": 668213,
+   "crc32": 4184278098,
+   "sha256": "c9c553d2a964c0f878e832d6b8b945cb040c8a50a9e0f4d102bb655e7a91a5f0",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/c9c553d2a964c0f878e832d6b8b945cb040c8a50a9e0f4d102bb655e7a91a5f0.bin"
+  },
+  {
+   "path": "locales/fi_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/fi_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/fi_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/fil.pak",
+   "size": 757309,
+   "crc32": 4245696171,
+   "sha256": "87abc0a3a0fd8fbef8bb543755794c03e49dfd75caf9f4974c71e31c9fd36c62",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/87abc0a3a0fd8fbef8bb543755794c03e49dfd75caf9f4974c71e31c9fd36c62.bin"
+  },
+  {
+   "path": "locales/fil_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/fil_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/fil_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/fr.pak",
+   "size": 784536,
+   "crc32": 2081305171,
+   "sha256": "d2d32867d5fe6db07611b762b9e3f6af40fac4fd42736f0505cde81d8fcfbc8b",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/d2d32867d5fe6db07611b762b9e3f6af40fac4fd42736f0505cde81d8fcfbc8b.bin"
+  },
+  {
+   "path": "locales/fr_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/fr_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/fr_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/gu.pak",
+   "size": 1528575,
+   "crc32": 89247143,
+   "sha256": "56a7356f5dfb8359c34b1911a5f3d08fbf84c09e3f45cdf207c07548a694aef3",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/56a7356f5dfb8359c34b1911a5f3d08fbf84c09e3f45cdf207c07548a694aef3.bin"
+  },
+  {
+   "path": "locales/gu_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/gu_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/gu_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/he.pak",
+   "size": 951440,
+   "crc32": 3209664614,
+   "sha256": "80643f76cef876bbd9a39362d4936f6575c106dd9b9e791e74fc915bf5a97227",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/80643f76cef876bbd9a39362d4936f6575c106dd9b9e791e74fc915bf5a97227.bin"
+  },
+  {
+   "path": "locales/he_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/he_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/he_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/hi.pak",
+   "size": 1629189,
+   "crc32": 3264748869,
+   "sha256": "0a9884b05271b3eb1bcd5e38175ecd35150b57967af677b149a14f4c476e4403",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/0a9884b05271b3eb1bcd5e38175ecd35150b57967af677b149a14f4c476e4403.bin"
+  },
+  {
+   "path": "locales/hi_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/hi_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/hi_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/hr.pak",
+   "size": 730198,
+   "crc32": 3222031900,
+   "sha256": "fc62196defd0643842f1ff58ad788bb95a4de0eb10bfff4ec62c752c3fa28ea3",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/fc62196defd0643842f1ff58ad788bb95a4de0eb10bfff4ec62c752c3fa28ea3.bin"
+  },
+  {
+   "path": "locales/hr_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/hr_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/hr_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/hu.pak",
+   "size": 782135,
+   "crc32": 1083419937,
+   "sha256": "1841f9994e8160c99ae4f159edddcba703f84653f6fdead2bbecc809cac82937",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/1841f9994e8160c99ae4f159edddcba703f84653f6fdead2bbecc809cac82937.bin"
+  },
+  {
+   "path": "locales/hu_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/hu_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/hu_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/id.pak",
+   "size": 647917,
+   "crc32": 2655131104,
+   "sha256": "7603f65acb46d2246f7b1ab62ea489535bc0e2c10a4eaabb7645807124650397",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/7603f65acb46d2246f7b1ab62ea489535bc0e2c10a4eaabb7645807124650397.bin"
+  },
+  {
+   "path": "locales/id_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/id_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/id_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/it.pak",
+   "size": 714802,
+   "crc32": 710569376,
+   "sha256": "6ec870bc0247a0a68306fa08073a399ebf33f55f0b88e574d138745daca09d77",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/6ec870bc0247a0a68306fa08073a399ebf33f55f0b88e574d138745daca09d77.bin"
+  },
+  {
+   "path": "locales/it_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/it_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/it_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/ja.pak",
+   "size": 866990,
+   "crc32": 1692705513,
+   "sha256": "239de169c1a073c100b84b492fde51f64b16b9e564242ee7c9620d1625142dee",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/239de169c1a073c100b84b492fde51f64b16b9e564242ee7c9620d1625142dee.bin"
+  },
+  {
+   "path": "locales/ja_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/ja_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/ja_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/kn.pak",
+   "size": 1748425,
+   "crc32": 2857128935,
+   "sha256": "9ddc17d4a35b9d4e18355c574c7647e278784bd4c6417994f084722fee8f1936",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/9ddc17d4a35b9d4e18355c574c7647e278784bd4c6417994f084722fee8f1936.bin"
+  },
+  {
+   "path": "locales/kn_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/kn_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/kn_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/ko.pak",
+   "size": 734822,
+   "crc32": 3675172919,
+   "sha256": "5cd3b684d8657d685a37df703965671c4f1ea3702c13104758242dc0830d0af5",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/5cd3b684d8657d685a37df703965671c4f1ea3702c13104758242dc0830d0af5.bin"
+  },
+  {
+   "path": "locales/ko_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/ko_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/ko_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/lt.pak",
+   "size": 794308,
+   "crc32": 2923750928,
+   "sha256": "e0f551e9511cf31e818deca43b2eeeba9118498be4ad2dafcb4a868c46bf9c24",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/e0f551e9511cf31e818deca43b2eeeba9118498be4ad2dafcb4a868c46bf9c24.bin"
+  },
+  {
+   "path": "locales/lt_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/lt_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/lt_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/lv.pak",
+   "size": 791374,
+   "crc32": 2584438375,
+   "sha256": "8fe55a2d89e0e5ca385c8030c156790bcf572d8b343fdb35015c9832c9506ccd",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/8fe55a2d89e0e5ca385c8030c156790bcf572d8b343fdb35015c9832c9506ccd.bin"
+  },
+  {
+   "path": "locales/lv_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/lv_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/lv_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/ml.pak",
+   "size": 1798492,
+   "crc32": 130304585,
+   "sha256": "c4c508b343a78d555ce51111b94ffb217340dcee12d1972e12e4d05dc9cbd74e",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/c4c508b343a78d555ce51111b94ffb217340dcee12d1972e12e4d05dc9cbd74e.bin"
+  },
+  {
+   "path": "locales/ml_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/ml_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/ml_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/mr.pak",
+   "size": 1492712,
+   "crc32": 2530703074,
+   "sha256": "1ca59cc45ac3fd6f7fa1cf438577e39959703ac681240757b36d010be58561ef",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/1ca59cc45ac3fd6f7fa1cf438577e39959703ac681240757b36d010be58561ef.bin"
+  },
+  {
+   "path": "locales/mr_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/mr_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/mr_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/ms.pak",
+   "size": 681807,
+   "crc32": 3772121002,
+   "sha256": "4d3476a1c5098255f35fe250406e5220d73723298d4704d07f48b4408a9a4ee0",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/4d3476a1c5098255f35fe250406e5220d73723298d4704d07f48b4408a9a4ee0.bin"
+  },
+  {
+   "path": "locales/ms_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/ms_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/ms_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/nb.pak",
+   "size": 652235,
+   "crc32": 664793010,
+   "sha256": "98e84f44996a4f0be340a94d28e93515a03c8c2f5cdbf2079ec304818b1c2fe1",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/98e84f44996a4f0be340a94d28e93515a03c8c2f5cdbf2079ec304818b1c2fe1.bin"
+  },
+  {
+   "path": "locales/nb_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/nb_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/nb_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/nl.pak",
+   "size": 679331,
+   "crc32": 2271243028,
+   "sha256": "6af44474c74ecb4b5c054c127e77dde717e309f9e8244afb8cfaf99ae8e9a8ab",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/6af44474c74ecb4b5c054c127e77dde717e309f9e8244afb8cfaf99ae8e9a8ab.bin"
+  },
+  {
+   "path": "locales/nl_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/nl_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/nl_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/pl.pak",
+   "size": 759045,
+   "crc32": 2940080613,
+   "sha256": "7ee30d27808e27d6fcbf9569839f91e4f27c01ebf32ac928ac97048f83b7f87d",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/7ee30d27808e27d6fcbf9569839f91e4f27c01ebf32ac928ac97048f83b7f87d.bin"
+  },
+  {
+   "path": "locales/pl_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/pl_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/pl_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/pt-BR.pak",
+   "size": 710823,
+   "crc32": 4127556464,
+   "sha256": "6c0257b628298f19f98fd2a92925926b871787ad85296c6ba9fee7c081f4b11d",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/6c0257b628298f19f98fd2a92925926b871787ad85296c6ba9fee7c081f4b11d.bin"
+  },
+  {
+   "path": "locales/pt-BR_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/pt-BR_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/pt-BR_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/pt-PT.pak",
+   "size": 716243,
+   "crc32": 2236459454,
+   "sha256": "deec01025af39ccbd81f417ce3f0344c3af81fa5f3b8cdbd05d95e03f908c956",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/deec01025af39ccbd81f417ce3f0344c3af81fa5f3b8cdbd05d95e03f908c956.bin"
+  },
+  {
+   "path": "locales/pt-PT_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/pt-PT_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/pt-PT_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/ro.pak",
+   "size": 742440,
+   "crc32": 2161634831,
+   "sha256": "a40b9da8523300edced46c315e33b7071d47536510ff221e439b255d4cb29aa7",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/a40b9da8523300edced46c315e33b7071d47536510ff221e439b255d4cb29aa7.bin"
+  },
+  {
+   "path": "locales/ro_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/ro_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/ro_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/ru.pak",
+   "size": 1226870,
+   "crc32": 703178095,
+   "sha256": "3e55ee8eabcf76f82dd390dbed8ff77c8422fe62c74101ee4fb1a2bd3fa43f37",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/3e55ee8eabcf76f82dd390dbed8ff77c8422fe62c74101ee4fb1a2bd3fa43f37.bin"
+  },
+  {
+   "path": "locales/ru_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/ru_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/ru_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/sk.pak",
+   "size": 769713,
+   "crc32": 1556821231,
+   "sha256": "8d68ffc484bcfc1a0adf4528a850d722417ff003e5d0fe47ce00ab634e9fdd98",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/8d68ffc484bcfc1a0adf4528a850d722417ff003e5d0fe47ce00ab634e9fdd98.bin"
+  },
+  {
+   "path": "locales/sk_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/sk_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/sk_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/sl.pak",
+   "size": 737682,
+   "crc32": 1400725158,
+   "sha256": "a5636675bab9b711d3f9cd8ad7e146b752cb6283d96cfa28e8c34596af021ab5",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/a5636675bab9b711d3f9cd8ad7e146b752cb6283d96cfa28e8c34596af021ab5.bin"
+  },
+  {
+   "path": "locales/sl_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/sl_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/sl_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/sr.pak",
+   "size": 1133541,
+   "crc32": 2980793346,
+   "sha256": "7c7174f92437f4d55eb1d24acf592224a1315e5f9bda478db594920c313db04b",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/7c7174f92437f4d55eb1d24acf592224a1315e5f9bda478db594920c313db04b.bin"
+  },
+  {
+   "path": "locales/sr_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/sr_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/sr_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/sv.pak",
+   "size": 660667,
+   "crc32": 3802890140,
+   "sha256": "f0647e1b824b303cbf5d29e5736db6b603ff8bf137a64e8211521ad5a2dab505",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/f0647e1b824b303cbf5d29e5736db6b603ff8bf137a64e8211521ad5a2dab505.bin"
+  },
+  {
+   "path": "locales/sv_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/sv_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/sv_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/sw.pak",
+   "size": 697853,
+   "crc32": 783313309,
+   "sha256": "c511826b09b5d55cfc4bf5cdd6f3f96ac16db45ec7cebc155404e1a6e4d3204c",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/c511826b09b5d55cfc4bf5cdd6f3f96ac16db45ec7cebc155404e1a6e4d3204c.bin"
+  },
+  {
+   "path": "locales/sw_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/sw_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/sw_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/ta.pak",
+   "size": 1793884,
+   "crc32": 215898201,
+   "sha256": "e09a624085d51bd3a708c44f31f6b0f3ff8021d3fafc47b63b9701b60404e64c",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/e09a624085d51bd3a708c44f31f6b0f3ff8021d3fafc47b63b9701b60404e64c.bin"
+  },
+  {
+   "path": "locales/ta_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/ta_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/ta_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/te.pak",
+   "size": 1657250,
+   "crc32": 1648987977,
+   "sha256": "2cfc6d3325efdbf9b66653f4ccde33c9bb24f2cdd780ca2a25d9545b773147ca",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/2cfc6d3325efdbf9b66653f4ccde33c9bb24f2cdd780ca2a25d9545b773147ca.bin"
+  },
+  {
+   "path": "locales/te_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/te_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/te_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/th.pak",
+   "size": 1393662,
+   "crc32": 2364961513,
+   "sha256": "5e53c3e3a0b5e0b64d1fc5dcf2b1d7afb8d0da8e3eecb327e8ed9aa530e87aff",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/5e53c3e3a0b5e0b64d1fc5dcf2b1d7afb8d0da8e3eecb327e8ed9aa530e87aff.bin"
+  },
+  {
+   "path": "locales/th_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/th_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/th_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/tr.pak",
+   "size": 711475,
+   "crc32": 2706649428,
+   "sha256": "8fe7aec665acf087e538826ad5767dad51c26ed400f19703c69d8a2a8a9f2660",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/8fe7aec665acf087e538826ad5767dad51c26ed400f19703c69d8a2a8a9f2660.bin"
+  },
+  {
+   "path": "locales/tr_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/tr_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/tr_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/uk.pak",
+   "size": 1232026,
+   "crc32": 867149926,
+   "sha256": "96144edbb6a87bec2eb3ae0d9c00b24c27576614bc3e6576e48e60bee3082999",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/96144edbb6a87bec2eb3ae0d9c00b24c27576614bc3e6576e48e60bee3082999.bin"
+  },
+  {
+   "path": "locales/uk_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/uk_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/uk_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/ur.pak",
+   "size": 1064516,
+   "crc32": 587769930,
+   "sha256": "539cf14922f55bd630ad6b75a5e528f000a1c3650ac0e21e5d74fe09ea341f78",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/539cf14922f55bd630ad6b75a5e528f000a1c3650ac0e21e5d74fe09ea341f78.bin"
+  },
+  {
+   "path": "locales/ur_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/ur_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/ur_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/vi.pak",
+   "size": 846420,
+   "crc32": 471855243,
+   "sha256": "ce370a07d2757544f65892666d789d1bd2c55a15bdea1382a82710fd54304e5f",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ce370a07d2757544f65892666d789d1bd2c55a15bdea1382a82710fd54304e5f.bin"
+  },
+  {
+   "path": "locales/vi_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/vi_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/vi_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/zh-CN.pak",
+   "size": 605396,
+   "crc32": 779370589,
+   "sha256": "c2f3f738eb0713836097ed16c3988d1d400b90b634af711a2a044cdc69004509",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/c2f3f738eb0713836097ed16c3988d1d400b90b634af711a2a044cdc69004509.bin"
+  },
+  {
+   "path": "locales/zh-CN_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/zh-CN_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/zh-CN_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/zh-TW.pak",
+   "size": 599308,
+   "crc32": 2373733330,
+   "sha256": "a2a9ac42693631f96c71e1e7b33ece0d05db776ecb8706fc0d23ae98f9a104a3",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/a2a9ac42693631f96c71e1e7b33ece0d05db776ecb8706fc0d23ae98f9a104a3.bin"
+  },
+  {
+   "path": "locales/zh-TW_FEMININE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/zh-TW_MASCULINE.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "locales/zh-TW_NEUTER.pak",
+   "size": 18,
+   "crc32": 3841904840,
+   "sha256": "ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ca73097bd968b363b7145e86b64f3c595e533808b0763dc8863a27fc363cfa51.bin"
+  },
+  {
+   "path": "metin2.cfg",
+   "size": 964,
+   "crc32": 3972555572,
+   "sha256": "06f87ab2a947975143b54aa0f686ced5dfc82fcb905dbfcf9b49cef80d6d96df",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.4/06f87ab2a947975143b54aa0f686ced5dfc82fcb905dbfcf9b49cef80d6d96df.bin",
+   "keep": true
+  },
+  {
+   "path": "Metin2Release_x64.exe",
+   "size": 12575744,
+   "crc32": 1927082424,
+   "sha256": "ca12d8840f44d880ef5c62216e79e283d3c43e36adeca815d847f4a0c98c76cb",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.7/ca12d8840f44d880ef5c62216e79e283d3c43e36adeca815d847f4a0c98c76cb.bin"
+  },
+  {
+   "path": "mouse.cfg",
+   "size": 3,
+   "crc32": 3065787059,
+   "sha256": "0a109b3200c3c88382ec0d55fed73b91ecbe7f6884a3e8794a5131f59535936d",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/0a109b3200c3c88382ec0d55fed73b91ecbe7f6884a3e8794a5131f59535936d.bin",
+   "keep": true
+  },
+  {
+   "path": "msvcp140.dll",
+   "size": 643512,
+   "crc32": 803361483,
+   "sha256": "7c26614e1d733892c2deac7e245ce115504b1d80592dd0a01b08e3e5a55f89ca",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/7c26614e1d733892c2deac7e245ce115504b1d80592dd0a01b08e3e5a55f89ca.bin"
+  },
+  {
+   "path": "pack/anka2",
+   "size": 444291411,
+   "crc32": 1417779361,
+   "sha256": "2de2cdbb0565dccc58cfa2acc29b1f6775c05197eaca9990d0e10bf2bbb477c8",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/2de2cdbb0565dccc58cfa2acc29b1f6775c05197eaca9990d0e10bf2bbb477c8.bin"
+  },
+  {
+   "path": "pack/icon",
+   "size": 26759120,
+   "crc32": 2663048607,
+   "sha256": "90ebac3a664fd75b1df3bc9451b8ae46e3e5346f4a4384d3a755a0963126c90f",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.3/90ebac3a664fd75b1df3bc9451b8ae46e3e5346f4a4384d3a755a0963126c90f.bin"
+  },
+  {
+   "path": "pack/locale",
+   "size": 53484636,
+   "crc32": 3028628850,
+   "sha256": "780f859bb800f7d7ca6f017c6e18ef352b25c08c8d33b970150d0777048d7ea4",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.3/780f859bb800f7d7ca6f017c6e18ef352b25c08c8d33b970150d0777048d7ea4.bin"
+  },
+  {
+   "path": "pack/maps",
+   "size": 95045346,
+   "crc32": 2177601597,
+   "sha256": "9d9b395d7ad303a12e3759bcec650b4191636f65042ed0b4d740da91f33ae4ca",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/9d9b395d7ad303a12e3759bcec650b4191636f65042ed0b4d740da91f33ae4ca.bin"
+  },
+  {
+   "path": "pack/property",
+   "size": 11301113,
+   "crc32": 3304498497,
+   "sha256": "05dd6e6827943d98fe42f9f9e174178cac2e35c2899840e9bf023b42bf092ebe",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/05dd6e6827943d98fe42f9f9e174178cac2e35c2899840e9bf023b42bf092ebe.bin"
+  },
+  {
+   "path": "pack/root",
+   "size": 17941912,
+   "crc32": 2464594642,
+   "sha256": "ef1b179a81ae5ab775a09018c04391d2a3185636dbc443d13c2af13d106906ec",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.7/ef1b179a81ae5ab775a09018c04391d2a3185636dbc443d13c2af13d106906ec.bin"
+  },
+  {
+   "path": "pack/saryong_chapter2",
+   "size": 76195946,
+   "crc32": 2238124617,
+   "sha256": "f765f6ed5b562a630ea0644c6e78932d8a764ecb38503e166b86b0bb52a67850",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/f765f6ed5b562a630ea0644c6e78932d8a764ecb38503e166b86b0bb52a67850.bin"
+  },
+  {
+   "path": "pack/saryong_christmas",
+   "size": 32601021,
+   "crc32": 815231388,
+   "sha256": "8ad878e105083779a2e531ef7a7cf647546e96e06ddf2c7e4cc44a561f8f08d9",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/8ad878e105083779a2e531ef7a7cf647546e96e06ddf2c7e4cc44a561f8f08d9.bin"
+  },
+  {
+   "path": "pack/saryong_costume",
+   "size": 932280639,
+   "crc32": 65536981,
+   "sha256": "9831a63c142284dfc215b165587670b4575175a78b658708de2cb673bcdf6255",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/9831a63c142284dfc215b165587670b4575175a78b658708de2cb673bcdf6255.bin"
+  },
+  {
+   "path": "pack/saryong_costume2",
+   "size": 418229442,
+   "crc32": 1269803594,
+   "sha256": "c3b90c22c0d48d5786be25b74f92225edf076a50c239718c32ff6b03bc1fc7d3",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/c3b90c22c0d48d5786be25b74f92225edf076a50c239718c32ff6b03bc1fc7d3.bin"
+  },
+  {
+   "path": "pack/saryong_effect",
+   "size": 5974201,
+   "crc32": 165661914,
+   "sha256": "9b1df6e527fc3f3f5bb98da0d830ca1546334a52fe42d0f7f7658ba5e2fc7cab",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/9b1df6e527fc3f3f5bb98da0d830ca1546334a52fe42d0f7f7658ba5e2fc7cab.bin"
+  },
+  {
+   "path": "pack/saryong_map",
+   "size": 16159421,
+   "crc32": 550931272,
+   "sha256": "d6a282e607857a9316d9b23a6495da27f2eab89045af44f038523a5c154954df",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/d6a282e607857a9316d9b23a6495da27f2eab89045af44f038523a5c154954df.bin"
+  },
+  {
+   "path": "pack/saryong_map2",
+   "size": 38624455,
+   "crc32": 489091004,
+   "sha256": "31927b463014ab959917210f51ba4dc3630998321b05d3a2893eab31e25be5c0",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/31927b463014ab959917210f51ba4dc3630998321b05d3a2893eab31e25be5c0.bin"
+  },
+  {
+   "path": "pack/saryong_ui",
+   "size": 194852001,
+   "crc32": 3387396973,
+   "sha256": "92c0b7f53acca1e6f348c23699a409c92d4fdac6e9881daba6d18d239a0b33e6",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/92c0b7f53acca1e6f348c23699a409c92d4fdac6e9881daba6d18d239a0b33e6.bin"
+  },
+  {
+   "path": "pack/season",
+   "size": 173364438,
+   "crc32": 3476218908,
+   "sha256": "21ce17b7e17b38591495bac530abd3d47029a2dc20fa9c5fedb65bf4a78c5ffe",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/21ce17b7e17b38591495bac530abd3d47029a2dc20fa9c5fedb65bf4a78c5ffe.bin"
+  },
+  {
+   "path": "pack/sound",
+   "size": 133196278,
+   "crc32": 1912203285,
+   "sha256": "2acc21a1b071c92ccc9c35fa9cf0196804c2fa08bf3009fb56eb73a6437254e7",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/2acc21a1b071c92ccc9c35fa9cf0196804c2fa08bf3009fb56eb73a6437254e7.bin"
+  },
+  {
+   "path": "pack/special_patch_animation",
+   "size": 1499228,
+   "crc32": 3631622480,
+   "sha256": "2e3f10c07cb7fb34845f25f660f5bbee82372f2fe442f8811c752906e3769fa6",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/2e3f10c07cb7fb34845f25f660f5bbee82372f2fe442f8811c752906e3769fa6.bin"
+  },
+  {
+   "path": "pack/special_patch_common",
+   "size": 288171,
+   "crc32": 3124686721,
+   "sha256": "b22907ece0edd24773f7773f33118cbdc1d39d65079bba87267277aa88eae73f",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/b22907ece0edd24773f7773f33118cbdc1d39d65079bba87267277aa88eae73f.bin"
+  },
+  {
+   "path": "pack/special_patch_ex",
+   "size": 37804,
+   "crc32": 367740912,
+   "sha256": "2db2ebe85198bfc1e725513a9126f5fcb75909a932158b9ebd5b8b99b928815f",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/2db2ebe85198bfc1e725513a9126f5fcb75909a932158b9ebd5b8b99b928815f.bin"
+  },
+  {
+   "path": "pack/special_patch_hair",
+   "size": 1360589,
+   "crc32": 3390762449,
+   "sha256": "a6de4d9dda4a63c9830748e93848e09d56c85385ffd998c17ce9bc6356d00a09",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/a6de4d9dda4a63c9830748e93848e09d56c85385ffd998c17ce9bc6356d00a09.bin"
+  },
+  {
+   "path": "pack/special_patch_maliml",
+   "size": 510,
+   "crc32": 236771131,
+   "sha256": "41c0c6ee358f66cdcf4d3d92d1ad99c84b992c1e3885553e5510bd8da1709498",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/41c0c6ee358f66cdcf4d3d92d1ad99c84b992c1e3885553e5510bd8da1709498.bin"
+  },
+  {
+   "path": "pack/textureset",
+   "size": 82008,
+   "crc32": 1477249798,
+   "sha256": "8e67559fdfe6777707c22a71dcebe8d2b0657fada3d773c9ddace2108644d0c1",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/8e67559fdfe6777707c22a71dcebe8d2b0657fada3d773c9ddace2108644d0c1.bin"
+  },
+  {
+   "path": "pack/yw_effect",
+   "size": 58382432,
+   "crc32": 902007334,
+   "sha256": "847b4dd7d611217ad2ad95b7ca25c0f84031ba93c0f7a18d2276b707a1ac0620",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/847b4dd7d611217ad2ad95b7ca25c0f84031ba93c0f7a18d2276b707a1ac0620.bin"
+  },
+  {
+   "path": "pack/yw_etc",
+   "size": 1882558624,
+   "crc32": 2804898716,
+   "sha256": "5150fe9da5b9e44014550b8977bc2250609bce7fab7453a6eb810e43bdf79d72",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/5150fe9da5b9e44014550b8977bc2250609bce7fab7453a6eb810e43bdf79d72.bin"
+  },
+  {
+   "path": "pack/yw_etc2",
+   "size": 39679484,
+   "crc32": 2750002459,
+   "sha256": "91ae0af4cfedd34b5f8126942d30065a5a95a8f3648b347e01c09c9fb2718a1b",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/91ae0af4cfedd34b5f8126942d30065a5a95a8f3648b347e01c09c9fb2718a1b.bin"
+  },
+  {
+   "path": "pack/yw_monster",
+   "size": 118577299,
+   "crc32": 282739619,
+   "sha256": "7c6bb2bc78b89cd3607ff7c82bbb804ff17643084ccdc9da64153ca5b7a682fb",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/7c6bb2bc78b89cd3607ff7c82bbb804ff17643084ccdc9da64153ca5b7a682fb.bin"
+  },
+  {
+   "path": "pack/yw_monster2",
+   "size": 405261120,
+   "crc32": 1461793243,
+   "sha256": "1e43872b7811992daa3cfbe79f4003d0e1a960d2d39d556b6316a15e8ef4f8a2",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/1e43872b7811992daa3cfbe79f4003d0e1a960d2d39d556b6316a15e8ef4f8a2.bin"
+  },
+  {
+   "path": "pack/yw_npc",
+   "size": 104460905,
+   "crc32": 1588479677,
+   "sha256": "b2748ed0d5462f93ebd56a217dd0f2ad10df2da0e5a01da9592bf05ce4b4240c",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/b2748ed0d5462f93ebd56a217dd0f2ad10df2da0e5a01da9592bf05ce4b4240c.bin"
+  },
+  {
+   "path": "pack/yw_npc2",
+   "size": 42990860,
+   "crc32": 4232776722,
+   "sha256": "8dd91ebe75e15830c248efddd2b179a77b5a6703abd82846d2266099d9152f7d",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/8dd91ebe75e15830c248efddd2b179a77b5a6703abd82846d2266099d9152f7d.bin"
+  },
+  {
+   "path": "pack/yw_npc_mount",
+   "size": 19584271,
+   "crc32": 4133241115,
+   "sha256": "4d588fc30c06b95acc4dc5b20d7e7a2c70c428d1336a5ee02f971ae9f4d2054e",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/4d588fc30c06b95acc4dc5b20d7e7a2c70c428d1336a5ee02f971ae9f4d2054e.bin"
+  },
+  {
+   "path": "pack/yw_npc_pet",
+   "size": 32618658,
+   "crc32": 2348674453,
+   "sha256": "ceb7cf5600ee52af7d02ac601bd157a6ae285c5aeeb72f41c738232456d92ae9",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ceb7cf5600ee52af7d02ac601bd157a6ae285c5aeeb72f41c738232456d92ae9.bin"
+  },
+  {
+   "path": "pack/yw_pc",
+   "size": 593596647,
+   "crc32": 888746602,
+   "sha256": "b2452896821e183a5c8978c00ca371f871d8bddc7043c8a7bcda6d91d476f94d",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/b2452896821e183a5c8978c00ca371f871d8bddc7043c8a7bcda6d91d476f94d.bin"
+  },
+  {
+   "path": "pack/yw_pc2",
+   "size": 564509935,
+   "crc32": 2277317742,
+   "sha256": "e3f2ce79ee7040b7a0c7206ef24f0d47447d1c1baeff11d048c968ed93b59628",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/e3f2ce79ee7040b7a0c7206ef24f0d47447d1c1baeff11d048c968ed93b59628.bin"
+  },
+  {
+   "path": "pack/yw_zone",
+   "size": 444022909,
+   "crc32": 4264790646,
+   "sha256": "d05fcad50fc5b8eb0aef8492d2b31b0b276bec3a0d5bde4c28eab0512614988f",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/d05fcad50fc5b8eb0aef8492d2b31b0b276bec3a0d5bde4c28eab0512614988f.bin"
+  },
+  {
+   "path": "python27.dll",
+   "size": 2975744,
+   "crc32": 221009827,
+   "sha256": "c6fdbf456d8ac604934fd47e4c235682539d2fcf39631bf9dee527e4be388794",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/c6fdbf456d8ac604934fd47e4c235682539d2fcf39631bf9dee527e4be388794.bin"
+  },
+  {
+   "path": "resources.pak",
+   "size": 15492821,
+   "crc32": 1375546085,
+   "sha256": "108d7ee6d9f75067629577453c3cbdad807a7bdbbed838d8de8e558be645238b",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/108d7ee6d9f75067629577453c3cbdad807a7bdbbed838d8de8e558be645238b.bin"
+  },
+  {
+   "path": "source/RenderCore/Shaders/Atmosphere.hlsl",
+   "size": 5526,
+   "crc32": 2436040181,
+   "sha256": "86b3377c8090f02590ca80100854d5145a8ea83e167e1b7a926fa42d4bf91dad",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/86b3377c8090f02590ca80100854d5145a8ea83e167e1b7a926fa42d4bf91dad.bin"
+  },
+  {
+   "path": "source/RenderCore/Shaders/ClusteredLighting.hlsl",
+   "size": 9386,
+   "crc32": 3140767462,
+   "sha256": "e82ceb5307a39946fa0b26ab8ad255b7d1111d6d9f62fc1f15f4d7ad28a48c34",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/e82ceb5307a39946fa0b26ab8ad255b7d1111d6d9f62fc1f15f4d7ad28a48c34.bin"
+  },
+  {
+   "path": "source/RenderCore/Shaders/ComputeDeform.hlsl",
+   "size": 4298,
+   "crc32": 2045438974,
+   "sha256": "0e0197b20d57139329e020f5ccdd86c0c6f70bdd062efd8e828b8d4d08892abc",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/0e0197b20d57139329e020f5ccdd86c0c6f70bdd062efd8e828b8d4d08892abc.bin"
+  },
+  {
+   "path": "source/RenderCore/Shaders/GpuScene.hlsl",
+   "size": 6309,
+   "crc32": 989000722,
+   "sha256": "5c8250e69a22fb53acb8cddbe60fa102f76eac584cf6c61621deb61f1130d60d",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/5c8250e69a22fb53acb8cddbe60fa102f76eac584cf6c61621deb61f1130d60d.bin"
+  },
+  {
+   "path": "source/RenderCore/Shaders/PostProcessing.hlsl",
+   "size": 4458,
+   "crc32": 950231921,
+   "sha256": "f4dc35855dc4ed0f03b6e23b4b76dffa405b4ed4a0ddc879e97803619ee73438",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/f4dc35855dc4ed0f03b6e23b4b76dffa405b4ed4a0ddc879e97803619ee73438.bin"
+  },
+  {
+   "path": "source/RenderCore/Shaders/VolumetricFog.hlsl",
+   "size": 7790,
+   "crc32": 2922483220,
+   "sha256": "6d86c277677c65e924ad051711c6a9cc52e303bad89a88eaf91bdcd602662046",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/6d86c277677c65e924ad051711c6a9cc52e303bad89a88eaf91bdcd602662046.bin"
+  },
+  {
+   "path": "v8_context_snapshot.bin",
+   "size": 740912,
+   "crc32": 3701223788,
+   "sha256": "63535617c1d2305255d1dfe1a5146b21b11a2423d9a8fa22522d58f5d35c2a9e",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/63535617c1d2305255d1dfe1a5146b21b11a2423d9a8fa22522d58f5d35c2a9e.bin"
+  },
+  {
+   "path": "vcruntime140.dll",
+   "size": 178616,
+   "crc32": 2456958808,
+   "sha256": "d1f4225df2cd877dbf130d5668a021dce3f94118455ff5ec952061c30afc9ce7",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/d1f4225df2cd877dbf130d5668a021dce3f94118455ff5ec952061c30afc9ce7.bin"
+  },
+  {
+   "path": "vcruntime140_1.dll",
+   "size": 50112,
+   "crc32": 2441211731,
+   "sha256": "a7146c08f89fe5b04541ab507cdb59ff7b44534d4ba3c668a426c6450a03434e",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/a7146c08f89fe5b04541ab507cdb59ff7b44534d4ba3c668a426c6450a03434e.bin"
+  },
+  {
+   "path": "vk_swiftshader.dll",
+   "size": 5408256,
+   "crc32": 4009149171,
+   "sha256": "ecb8a367a027b4c24b51142dbf33edadd3de7a91a5904b43b7a00e8837964d85",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/ecb8a367a027b4c24b51142dbf33edadd3de7a91a5904b43b7a00e8837964d85.bin"
+  },
+  {
+   "path": "vk_swiftshader_icd.json",
+   "size": 106,
+   "crc32": 1500200265,
+   "sha256": "32d83ff113fef532a9f97e0d2831f8656628ab1c99e9060f0332b1532839afd9",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/32d83ff113fef532a9f97e0d2831f8656628ab1c99e9060f0332b1532839afd9.bin"
+  },
+  {
+   "path": "voice_chat_core_Release_x64.dll",
+   "size": 1262592,
+   "crc32": 1202145430,
+   "sha256": "872fa059288a31a0dee4b13a37f53a1e300b1652d9b923036a8955c6be44a098",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.7/872fa059288a31a0dee4b13a37f53a1e300b1652d9b923036a8955c6be44a098.bin"
+  },
+  {
+   "path": "voicechat.cfg",
+   "size": 30,
+   "crc32": 3161004524,
+   "sha256": "36c26b8c0fa6a6c8221ccc99082d8980a75f1f1fc6ca1bcb9e22b6badc8513e8",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.4/36c26b8c0fa6a6c8221ccc99082d8980a75f1f1fc6ca1bcb9e22b6badc8513e8.bin",
+   "keep": true
+  },
+  {
+   "path": "vulkan-1.dll",
+   "size": 947200,
+   "crc32": 1453535416,
+   "sha256": "753aefe7d71b12325617715ffa2c0d0f00090f86dd9459f5d308a67443a8f09c",
+   "url": "https://github.com/erotics1/cd2-updates/releases/download/pegaso-1.0.0/753aefe7d71b12325617715ffa2c0d0f00090f86dd9459f5d308a67443a8f09c.bin"
+  }
+ ]
+}
